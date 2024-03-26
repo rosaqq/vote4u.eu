@@ -1,0 +1,60 @@
+---
+function getURL(name: string): string{
+    return `/img/${name}.png`
+}
+
+const parties = ['PS', 'PSD'];
+---
+<div class="toggle">
+    {parties.map(
+        (name) => (
+            <div class="b"><img data-toggle-filter src={getURL(name)} alt={name}/></div>
+        )
+    )}
+</div>
+
+<script>
+    
+    // Find our component DOM on the page.
+    const buttons = document.querySelectorAll('[data-toggle-filter]');
+
+    // Add event listeners to fire confetti when a button is clicked.
+    buttons.forEach((button) => {
+        button.addEventListener('click', (e) => toggle_filter(e));
+    });
+
+function toggle_filter(e: Event): void {
+    e.target.classList.toggle("selected")
+}
+</script>
+
+<style>
+
+    .toggle {
+        display: flex;
+        justify-content: center;
+    }
+
+    .b {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        padding: 0 10px;
+        width: 250px;
+        height: 250px;
+    }
+
+    img {
+        border-radius: 50%;
+        object-fit: cover;
+        width: 200px;
+        height: 200px;
+        outline: none;
+    }
+
+    img.selected {
+        outline: 10px solid aqua;
+        outline-offset: -1px;
+    }
+</style>

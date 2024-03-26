@@ -1,0 +1,37 @@
+---
+const { userprops } = Astro.props
+const { name, bio } = userprops
+const imgUrl = '/img/pedromarques.jpg'
+---
+<div>
+    <div class="b">
+        <img src={imgUrl} alt={name} />
+    </div>
+    <div class="b">
+        <div class="name">{name}</div>
+        <div class="bio">{bio}</div>  
+    </div>
+</div>
+
+<style>
+    .b {
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    .b > img {
+        padding-right: 10px;
+    }
+
+    .bio {
+        font-size: small;
+    }
+
+    img {
+        border-radius: 50%;
+        object-fit: cover;
+        width: 90px;
+        height: 90px;
+        vertical-align: middle;
+    }
+</style>

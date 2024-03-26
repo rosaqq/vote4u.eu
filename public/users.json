@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Carlos",
+        "bio": "#1 Lista PS portugal",
+        "lista": "PS"
+    },
+    {
+        "name": "João",
+        "bio": "#2 Lista PS portugal",
+        "lista": "PS"
+    },
+    {
+        "name": "Antonio",
+        "bio": "#3 Lista PS portugal",
+        "lista": "PS"
+    },
+    {
+        "name": "Pedro",
+        "bio": "#1 Lista PSD portugal",
+        "lista": "PSD"
+    },
+    {
+        "name": "Gustavo",
+        "bio": "#2 Lista PSD portugal",
+        "lista": "PSD"
+    }
+]
