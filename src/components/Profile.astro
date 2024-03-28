@@ -1,9 +1,9 @@
 ---
 const { userprops } = Astro.props
-const { name, bio } = userprops
+const { name, bio, group } = userprops
 const imgUrl = '/img/pedromarques.jpg'
 ---
-<div>
+<div class={`profile ${group}`} hidden>
     <div class="b">
         <img src={imgUrl} alt={name} />
     </div>

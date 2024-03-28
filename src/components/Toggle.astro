@@ -8,7 +8,7 @@ const parties = ['PS', 'PSD'];
 <div class="toggle">
     {parties.map(
         (name) => (
-            <div class="b"><img data-toggle-filter src={getURL(name)} alt={name}/></div>
+            <div class="b"><img data-toggle-filter data-group={name} src={getURL(name)} alt={name}/></div>
         )
     )}
 </div>
@@ -24,7 +24,17 @@ const parties = ['PS', 'PSD'];
     });
 
 function toggle_filter(e: Event): void {
-    e.target.classList.toggle("selected")
+    if (e.target && e.target instanceof HTMLElement)
+    {
+        e.target.classList.toggle("selected")
+        let group_filter = e.target.getAttribute('data-group');
+
+        if (group_filter)
+        {
+            let elements = document.getElementsByClassName(group_filter)
+            Array.from(elements).forEach(elem => elem.toggleAttribute('hidden'));
+        }
+    }
 }
 </script>
 
@@ -41,20 +51,20 @@ function toggle_filter(e: Event): void {
         align-items: center;
 
         padding: 0 10px;
-        width: 250px;
-        height: 250px;
+        width: 52px;
+        height: 52px;
     }
 
     img {
         border-radius: 50%;
         object-fit: cover;
-        width: 200px;
-        height: 200px;
+        width: 50px;
+        height: 50px;
         outline: none;
     }
 
     img.selected {
-        outline: 10px solid aqua;
+        outline: 2px solid aqua;
         outline-offset: -1px;
     }
 </style>

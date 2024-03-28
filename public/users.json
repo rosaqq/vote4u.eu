@@ -1,27 +1,27 @@
 [
     {
         "name": "Carlos",
-        "bio": "#1 Lista PS portugal",
-        "lista": "PS"
+        "bio": "#1 group PS portugal",
+        "group": "PS"
     },
     {
         "name": "João",
-        "bio": "#2 Lista PS portugal",
-        "lista": "PS"
+        "bio": "#2 group PS portugal",
+        "group": "PS"
     },
     {
         "name": "Antonio",
-        "bio": "#3 Lista PS portugal",
-        "lista": "PS"
+        "bio": "#3 group PS portugal",
+        "group": "PS"
     },
     {
         "name": "Pedro",
-        "bio": "#1 Lista PSD portugal",
-        "lista": "PSD"
+        "bio": "#1 group PSD portugal",
+        "group": "PSD"
     },
     {
         "name": "Gustavo",
-        "bio": "#2 Lista PSD portugal",
-        "lista": "PSD"
+        "bio": "#2 group PSD portugal",
+        "group": "PSD"
     }
 ]
