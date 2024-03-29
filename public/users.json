@@ -1,27 +1,116 @@
 [
     {
-        "name": "Carlos",
-        "bio": "#1 group PS portugal",
-        "group": "PS"
+        "name": "João Albuquerque",
+        "bio": "...",
+        "group": "PS",
+        "imgname": "joaoa"
     },
     {
-        "name": "João",
-        "bio": "#2 group PS portugal",
-        "group": "PS"
+        "name": "Isabel Carvalhais",
+        "bio": "...",
+        "group": "PS",
+        "imgname": "isabelc"
     },
     {
-        "name": "Antonio",
-        "bio": "#3 group PS portugal",
-        "group": "PS"
+        "name": "Maria da Graça Carvalho",
+        "bio": "...",
+        "group": "PSD",
+        "imgname": "mariac"
     },
     {
-        "name": "Pedro",
-        "bio": "#1 group PSD portugal",
-        "group": "PSD"
+        "name": "Sara Cerdas",
+        "bio": "...",
+        "group": "PS",
+        "imgname": "sarac"
     },
     {
-        "name": "Gustavo",
-        "bio": "#2 group PSD portugal",
-        "group": "PSD"
+        "name": "Carlos Coelho",
+        "bio": "...",
+        "group": "PSD",
+        "imgname": "carlosc"
+    },
+    {
+        "name": "José Manuel Fernandes",
+        "bio": "...",
+        "group": "PSD",
+        "imgname": "josef"
+    },
+    {
+        "name": "Francisco Guerreiro",
+        "bio": "...",
+        "group": "Ind",
+        "imgname": "franciscog"
+    },
+    {
+        "name": "José Gusmão",
+        "bio": "...",
+        "group": "BE",
+        "imgname": "joseg"
+    },
+    {
+        "name": "Maria-Manuel Leitão-Marques",
+        "bio": "...",
+        "group": "PS",
+        "imgname": "mariam"
+    },
+    {
+        "name": "Margarida Marques",
+        "bio": "...",
+        "group": "PS",
+        "imgname": "margaridam"
+    },
+    {
+        "name": "Pedro Marques",
+        "bio": "...",
+        "group": "PS",
+        "imgname": "pedrom"
+    },
+    {
+        "name": "Cláudia Monteiro de Aguiar",
+        "bio": "...",
+        "group": "PSD",
+        "imgname": "claudiaa"
+    },
+    {
+        "name": "Sandra Pereira",
+        "bio": "...",
+        "group": "PCP",
+        "imgname": "sandrap"
+    },
+    {
+        "name": "Lídia Pereira",
+        "bio": "...",
+        "group": "PSD",
+        "imgname": "lidiap"
+    },
+    {
+        "name": "João Pimenta Lopes",
+        "bio": "...",
+        "group": "PCP",
+        "imgname": "joaol"
+    },
+    {
+        "name": "Paulo Rangel",
+        "bio": "...",
+        "group": "PSD",
+        "imgname": "paulor"
+    },
+    {
+        "name": "Isabel Santos",
+        "bio": "...",
+        "group": "PS",
+        "imgname": "isabels"
+    },
+    {
+        "name": "Pedro Silva Pereira",
+        "bio": "...",
+        "group": "PS",
+        "imgname": "pedrop"
+    },
+    {
+        "name": "Carlos Zorrinho",
+        "bio": "...",
+        "group": "PS",
+        "imgname": "carlosz"
     }
 ]
