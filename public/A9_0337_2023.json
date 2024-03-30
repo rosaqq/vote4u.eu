@@ -1,0 +1,23 @@
+[
+  { "first_name": "João", "last_name": "ALBUQUERQUE", "position": "FOR" },
+  { "first_name": "Isabel", "last_name": "CARVALHAIS", "position": "FOR" },
+  { "first_name": "Maria da Graça", "last_name": "CARVALHO", "position": "ABSTENTION" },
+  { "first_name": "Sara", "last_name": "CERDAS", "position": "FOR" },
+  { "first_name": "Carlos", "last_name": "COELHO", "position": "ABSTENTION" },
+  { "first_name": "José Manuel", "last_name": "FERNANDES", "position": "ABSTENTION" },
+  { "first_name": "Francisco", "last_name": "GUERREIRO", "position": "FOR" },
+  { "first_name": "José", "last_name": "GUSMÃO", "position": "AGAINST" },
+  { "first_name": "Maria-Manuel", "last_name": "LEITÃO-MARQUES", "position": "FOR" },
+  { "first_name": "Pedro", "last_name": "MARQUES", "position": "FOR" },
+  { "first_name": "Margarida", "last_name": "MARQUES", "position": "FOR" },
+  { "first_name": "Marisa", "last_name": "MATIAS", "position": "AGAINST" },
+  { "first_name": "Nuno", "last_name": "MELO", "position": "DID_NOT_VOTE" },
+  { "first_name": "Cláudia", "last_name": "MONTEIRO DE AGUIAR", "position": "ABSTENTION" },
+  { "first_name": "Lídia", "last_name": "PEREIRA", "position": "ABSTENTION" },
+  { "first_name": "Sandra", "last_name": "PEREIRA", "position": "AGAINST" },
+  { "first_name": "João", "last_name": "PIMENTA LOPES", "position": "AGAINST" },
+  { "first_name": "Paulo", "last_name": "RANGEL", "position": "FOR" },
+  { "first_name": "Isabel", "last_name": "SANTOS", "position": "FOR" },
+  { "first_name": "Pedro", "last_name": "SILVA PEREIRA", "position": "FOR" },
+  { "first_name": "Carlos", "last_name": "ZORRINHO", "position": "FOR" }
+]

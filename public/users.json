@@ -1,116 +1,170 @@
 [
     {
-        "name": "João Albuquerque",
-        "bio": "...",
-        "group": "PS",
-        "imgname": "joaoa"
+      "first_name": "João",
+      "last_name": "ALBUQUERQUE",
+      "bio": "...",
+      "group": "PS",
+      "imgname": "joaoa",
+      "tags": [ "a9_0337_2023_FOR" ]
     },
     {
-        "name": "Isabel Carvalhais",
-        "bio": "...",
-        "group": "PS",
-        "imgname": "isabelc"
+      "first_name": "Isabel",
+      "last_name": "CARVALHAIS",
+      "bio": "...",
+      "group": "PS",
+      "imgname": "isabelc",
+      "tags": [ "a9_0337_2023_FOR" ]
     },
     {
-        "name": "Maria da Graça Carvalho",
-        "bio": "...",
-        "group": "PSD",
-        "imgname": "mariac"
+      "first_name": "Maria da Graça",
+      "last_name": "CARVALHO",
+      "bio": "...",
+      "group": "PSD",
+      "imgname": "mariac",
+      "tags": [ "a9_0337_2023_ABSTENTION" ]
     },
     {
-        "name": "Sara Cerdas",
-        "bio": "...",
-        "group": "PS",
-        "imgname": "sarac"
+      "first_name": "Sara",
+      "last_name": "CERDAS",
+      "bio": "...",
+      "group": "PS",
+      "imgname": "sarac",
+      "tags": [ "a9_0337_2023_FOR" ]
     },
     {
-        "name": "Carlos Coelho",
-        "bio": "...",
-        "group": "PSD",
-        "imgname": "carlosc"
+      "first_name": "Carlos",
+      "last_name": "COELHO",
+      "bio": "...",
+      "group": "PSD",
+      "imgname": "carlosc",
+      "tags": [ "a9_0337_2023_ABSTENTION" ]
     },
     {
-        "name": "José Manuel Fernandes",
-        "bio": "...",
-        "group": "PSD",
-        "imgname": "josef"
+      "first_name": "José Manuel",
+      "last_name": "FERNANDES",
+      "bio": "...",
+      "group": "PSD",
+      "imgname": "josef",
+      "tags": [ "a9_0337_2023_ABSTENTION" ]
     },
     {
-        "name": "Francisco Guerreiro",
-        "bio": "...",
-        "group": "Ind",
-        "imgname": "franciscog"
+      "first_name": "Francisco",
+      "last_name": "GUERREIRO",
+      "bio": "...",
+      "group": "Ind",
+      "imgname": "franciscog",
+      "tags": [ "a9_0337_2023_FOR" ]
     },
     {
-        "name": "José Gusmão",
-        "bio": "...",
-        "group": "BE",
-        "imgname": "joseg"
+      "first_name": "José",
+      "last_name": "GUSMÃO",
+      "bio": "...",
+      "group": "BE",
+      "imgname": "joseg",
+      "tags": [ "a9_0337_2023_AGAINST" ]
     },
     {
-        "name": "Maria-Manuel Leitão-Marques",
-        "bio": "...",
-        "group": "PS",
-        "imgname": "mariam"
+      "first_name": "Maria-Manuel",
+      "last_name": "LEITÃO-MARQUES",
+      "bio": "...",
+      "group": "PS",
+      "imgname": "mariam",
+      "tags": [ "a9_0337_2023_FOR" ]
     },
     {
-        "name": "Margarida Marques",
-        "bio": "...",
-        "group": "PS",
-        "imgname": "margaridam"
+      "first_name": "Margarida",
+      "last_name": "MARQUES",
+      "bio": "...",
+      "group": "PS",
+      "imgname": "margaridam",
+      "tags": [ "a9_0337_2023_FOR" ]
     },
     {
-        "name": "Pedro Marques",
-        "bio": "...",
-        "group": "PS",
-        "imgname": "pedrom"
+      "first_name": "Pedro",
+      "last_name": "MARQUES",
+      "bio": "...",
+      "group": "PS",
+      "imgname": "pedrom",
+      "tags": [ "a9_0337_2023_FOR" ]
     },
     {
-        "name": "Cláudia Monteiro de Aguiar",
-        "bio": "...",
-        "group": "PSD",
-        "imgname": "claudiaa"
+      "first_name": "Marisa",
+      "last_name": "MATIAS",
+      "bio": "...",
+      "group": "BE",
+      "imgname": "marisam",
+      "tags": [ "a9_0337_2023_AGAINST" ]
     },
     {
-        "name": "Sandra Pereira",
-        "bio": "...",
-        "group": "PCP",
-        "imgname": "sandrap"
+      "first_name": "Nuno",
+      "last_name": "MELO",
+      "bio": "...",
+      "group": "CDS",
+      "imgname": "nunom",
+      "tags": [ "a9_0337_2023_DID_NOT_VOTE" ]
     },
     {
-        "name": "Lídia Pereira",
-        "bio": "...",
-        "group": "PSD",
-        "imgname": "lidiap"
+      "first_name": "Cláudia",
+      "last_name": "MONTEIRO DE AGUIAR",
+      "bio": "...",
+      "group": "PSD",
+      "imgname": "claudiaa",
+      "tags": [ "a9_0337_2023_ABSTENTION" ]
     },
     {
-        "name": "João Pimenta Lopes",
-        "bio": "...",
-        "group": "PCP",
-        "imgname": "joaol"
+      "first_name": "Sandra",
+      "last_name": "PEREIRA",
+      "bio": "...",
+      "group": "PCP",
+      "imgname": "sandrap",
+      "tags": [ "a9_0337_2023_ABSTENTION" ]
     },
     {
-        "name": "Paulo Rangel",
-        "bio": "...",
-        "group": "PSD",
-        "imgname": "paulor"
+      "first_name": "Lídia",
+      "last_name": "PEREIRA",
+      "bio": "...",
+      "group": "PSD",
+      "imgname": "lidiap",
+      "tags": [ "a9_0337_2023_ABSTENTION" ]
     },
     {
-        "name": "Isabel Santos",
-        "bio": "...",
-        "group": "PS",
-        "imgname": "isabels"
+      "first_name": "João",
+      "last_name": "PIMENTA LOPES",
+      "bio": "...",
+      "group": "PCP",
+      "imgname": "joaol",
+      "tags": [ "a9_0337_2023_AGAINST" ]
     },
     {
-        "name": "Pedro Silva Pereira",
-        "bio": "...",
-        "group": "PS",
-        "imgname": "pedrop"
+      "first_name": "Paulo",
+      "last_name": "RANGEL",
+      "bio": "...",
+      "group": "PSD",
+      "imgname": "paulor",
+      "tags": [ "a9_0337_2023_FOR" ]
     },
     {
-        "name": "Carlos Zorrinho",
-        "bio": "...",
-        "group": "PS",
-        "imgname": "carlosz"
+      "first_name": "Isabel",
+      "last_name": "SANTOS",
+      "bio": "...",
+      "group": "PS",
+      "imgname": "isabels",
+      "tags": [ "a9_0337_2023_FOR" ]
+    },
+    {
+      "first_name": "Pedro",
+      "last_name": "SILVA PEREIRA",
+      "bio": "...",
+      "group": "PS",
+      "imgname": "pedrop",
+      "tags": [ "a9_0337_2023_FOR" ]
+    },
+    {
+      "first_name": "Carlos",
+      "last_name": "ZORRINHO",
+      "bio": "...",
+      "group": "PS",
+      "imgname": "carlosz",
+      "tags": [ "a9_0337_2023_FOR" ]
     }
-]
+  ]

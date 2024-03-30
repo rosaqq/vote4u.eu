@@ -1,22 +1,27 @@
 ---
-function getURL(name: string): string{
+const { hasimg, options } = Astro.props;
+const b_hasimg = (hasimg === "true")
+
+function getURL(name: string): string {
     return `/img/groups/${name}.png`
 }
 
-const parties = ['PS', 'PSD', 'BE', 'PCP', 'Ind'];
+
 ---
-<div class="toggle">
-    {parties.map(
-        (name) => (
-            <div class="b"><img data-toggle-filter data-group={name} src={getURL(name)} alt={name}/></div>
-        )
-    )}
+
+<div class="toggle_container">
+    {options.map((value: string) => 
+    (
+        <div class="b">
+            {b_hasimg ? <img class="toggle" data-value={value} src={getURL(value)} alt={value}/> : <div class="toggle" data-value={value}>{value}</div>}
+        </div>
+    ))}
 </div>
 
 <script>
-    
+
     // Find our component DOM on the page.
-    const buttons = document.querySelectorAll('[data-toggle-filter]');
+    const buttons = document.querySelectorAll('.toggle');
 
     // Add event listeners to fire confetti when a button is clicked.
     buttons.forEach((button) => {
@@ -26,12 +31,12 @@ const parties = ['PS', 'PSD', 'BE', 'PCP', 'Ind'];
 function toggle_filter(e: Event): void {
     if (e.target && e.target instanceof HTMLElement)
     {
-        e.target.classList.toggle("selected")
-        let group_filter = e.target.getAttribute('data-group');
+        e.target.classList.toggle("selected");
+        let group_filter = e.target.getAttribute('data-value');
 
         if (group_filter)
         {
-            let elements = document.getElementsByClassName(group_filter)
+            let elements = document.getElementsByClassName(group_filter);
             Array.from(elements).forEach(elem => elem.toggleAttribute('hidden'));
         }
     }
@@ -40,30 +45,28 @@ function toggle_filter(e: Event): void {
 
 <style>
 
+    .toggle_container {
+        display: flex;
+        justify-content: center;
+    }
+
     .toggle {
         display: flex;
         justify-content: center;
-    }
-
-    .b {
-        display: flex;
-        justify-content: center;
         align-items: center;
-
-        padding: 0 10px;
-        width: 52px;
-        height: 52px;
+        outline: none;
+        margin: 0 10px; /* use margin so that outline sticks to inner content */
+        cursor: pointer;
     }
 
-    img {
+    img.toggle {
         border-radius: 50%;
         object-fit: cover;
         width: 50px;
         height: 50px;
-        outline: none;
     }
 
-    img.selected {
+    .toggle.selected {
         outline: 2px solid aqua;
         outline-offset: -1px;
     }

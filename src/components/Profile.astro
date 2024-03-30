@@ -1,14 +1,14 @@
 ---
 const { userprops } = Astro.props
-const { name, bio, group, imgname } = userprops
+const { first_name, last_name, bio, group, imgname, tags } = userprops
 const imgUrl = `/img/ppl/${imgname}.jpg`
 ---
-<div class={`profile ${group}`} hidden>
+<div class={`profile ${group} ${tags.join(" ")}`} hidden>
     <div class="b">
-        <img src={imgUrl} alt={name} />
+        <img src={imgUrl} alt="sem foto" />
     </div>
     <div class="b">
-        <div class="name">{name}</div>
+        <div class="name">{first_name + " " + last_name}</div>
         <div class="bio">{group} | {bio}</div>  
     </div>
 </div>

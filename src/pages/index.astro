@@ -5,13 +5,50 @@ import Profile from '../components/Profile.astro';
 import Toggle from '../components/Toggle.astro';
 
 import users from '../../public/users.json'
+
+const arr_groups = ['PS', 'PSD', 'BE', 'PCP', 'Ind'];
+const arr_stance = ['pro-eu', 'anti-eu', 'pro-climate', 'anti-climate', 'federalist', 'nationalist', "a9_0337_2023_FOR", "a9_0337_2023_AGAINST", "a9_0337_2023_ABSTENTION"];
+
+// THIS BLOCK
+// Used to generate intemediate arrays to get the vote info
+
+// let pt_votes = [];
+
+// fetch('https://howtheyvote.eu/api/votes/160487').then((res)=>res.json()).then((json) => {
+
+// 	json.member_votes.forEach(element => {
+// 		if (element.member.country.iso_alpha_2 === 'PT')
+// 		{
+// 			pt_votes.push(
+// 				{
+// 					"first_name": element.member.first_name,
+// 					"last_name": element.member.last_name,
+// 					"position": element.position
+// 				}
+// 			)
+// 		}
+// 	});
+
+// 	console.log(pt_votes)
+// });
+
+// import votes from '../../public/A9_0337_2023.json'
+
+// users.forEach(user=>{
+// 	let rel_vote = votes.filter(elem => (elem.last_name === user.last_name));
+
+// 	user.tags.push("a9_0337_2023_"  +  rel_vote[0].position);
+// })
+
+// console.log(users);
 ---
 
 <Layout title="Eurodeputados">
 	<main>
 		<h1><span class="text-gradient">Euro</span>-deputados</h1>
 
-		<Toggle />
+		<Toggle hasimg=true options={arr_groups}/>
+		<Toggle hasimg=false options={arr_stance} />
 
 		<ul role="list" class="link-card-grid">
 			{users.map((user: any) => (
@@ -25,7 +62,7 @@ import users from '../../public/users.json'
 	main {
 		margin: auto;
 		padding: 1rem;
-		width: 800px;
+		width: 830px; /* initially 800px, increased to accomodade the largest MEP name withouth getting 3 cols*/
 		max-width: calc(100% - 2rem);
 		color: white;
 		font-size: 20px;
