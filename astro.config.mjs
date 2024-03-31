@@ -6,3 +6,11 @@ import react from "@astrojs/react";
 export default defineConfig({
   integrations: [react()]
 });
+
+
+/**
+ * Ideas:
+ * tags, filters = tags
+ * clicking a tag leads to page / opens modal justifying the opinion
+ * 
+ */

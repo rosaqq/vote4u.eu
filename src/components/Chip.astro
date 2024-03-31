@@ -1,0 +1,31 @@
+---
+let {text, color} = Astro.props;
+
+switch (color) {
+    case "primary":     color = "#007bff"; break;
+    case "secondary":   color = "#6c757d"; break;
+    case "info":        color = "#17a2b8"; break;
+    case "warning":     color = "#ffc107"; break;
+    case "danger":      color = "#dc3545"; break;
+}
+
+---
+
+<span><slot /></span>
+
+<style define:vars={{ color }}>
+
+    span {
+        display: inline-block;
+        padding: .25em .6em;
+        font-size: 75%;
+        font-weight: 700;
+        line-height: 1;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: baseline;
+        border-radius: 10rem;
+
+        background-color: var(--color);
+    }
+</style>

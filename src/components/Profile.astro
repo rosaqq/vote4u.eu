@@ -1,4 +1,6 @@
 ---
+import Chip from "./Chip.astro"
+
 const { userprops } = Astro.props
 const { first_name, last_name, bio, group, imgname, tags } = userprops
 const imgUrl = `/img/ppl/${imgname}.jpg`
@@ -9,7 +11,10 @@ const imgUrl = `/img/ppl/${imgname}.jpg`
     </div>
     <div class="b">
         <div class="name">{first_name + " " + last_name}</div>
-        <div class="bio">{group} | {bio}</div>  
+        <div class="bio">{group} | {bio}</div>
+
+        { tags.map((tag: string) => (<Chip color="primary">{tag}</Chip>)) }
+
     </div>
 </div>
 
