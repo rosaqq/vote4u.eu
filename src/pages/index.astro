@@ -1,10 +1,9 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import Card from '../components/Card.astro';
-import Profile from '../components/Profile.astro';
-import Toggle from '../components/Toggle.astro';
 
 import users from '../../public/users.json'
+import List from "../components/List";
+import ListItem from "../components/ListItem";
 
 const arr_groups = ['PS', 'PSD', 'BE', 'PCP', 'Ind'];
 const arr_stance = ['pro-eu', 'anti-eu', 'pro-climate', 'anti-climate', 'federalist', 'nationalist', "a9_0337_2023_FOR", "a9_0337_2023_AGAINST", "a9_0337_2023_ABSTENTION"];
@@ -45,16 +44,15 @@ const arr_stance = ['pro-eu', 'anti-eu', 'pro-climate', 'anti-climate', 'federal
 
 <Layout title="Eurodeputados">
 	<main>
-		<h1><span class="text-gradient">Euro</span>-deputados</h1>
+		<h1>Euro-deputados</h1>
 
-		<Toggle hasimg=true options={arr_groups}/>
-		<Toggle hasimg=false options={arr_stance} />
-
-		<ul role="list" class="link-card-grid">
-			{users.map((user: any) => (
-				<Profile userprops = {user}/>
-			))}
-		</ul>
+		<div class="relative z-10 rounded-xl shadow-xl ring-1 ring-slate-900/5 divide-y my-auto xl:mt-18 bg-slate-800 divide-slate-200/5 highlight-white/10">
+			<List>
+				{users.map((user) => (
+					<ListItem user={user} />
+				))}
+			</List>
+		</div>
 	</main>
 </Layout>
 
@@ -64,7 +62,6 @@ const arr_stance = ['pro-eu', 'anti-eu', 'pro-climate', 'anti-climate', 'federal
 		padding: 1rem;
 		width: 830px; /* initially 800px, increased to accomodade the largest MEP name withouth getting 3 cols*/
 		max-width: calc(100% - 2rem);
-		color: white;
 		font-size: 20px;
 		line-height: 1.6;
 	}
