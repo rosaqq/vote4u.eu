@@ -1,6 +1,6 @@
 export default function ListItem({ user }) {
     const { first_name, last_name, bio, group, local_party, img_name, tags } = user;
-    const img_src = `/img/ppl/${img_name}.jpg` ;
+    const img_src = img_name ? `/img/ppl/${img_name}.jpg` : '';
     return (
         <article className="flex items-start space-x-6 p-6">
             <img src={img_src} alt="" width="60" height="88" className="flex-none rounded-md bg-slate-100" />

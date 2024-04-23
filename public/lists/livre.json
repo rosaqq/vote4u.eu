@@ -1,0 +1,62 @@
+[
+    {
+        "pos": 1,
+        "first_name": "Francisco",
+        "last_name": "Paup\u00e9rio",
+        "bio": "...",
+        "group": "GREENS/EFA",
+        "local_party": "LIVRE",
+        "img_name": "",
+        "tags": []
+    },
+    {
+        "pos": 2,
+        "first_name": "Filipa",
+        "last_name": "Pinto",
+        "bio": "...",
+        "group": "GREENS/EFA",
+        "local_party": "LIVRE",
+        "img_name": "",
+        "tags": []
+    },
+    {
+        "pos": 3,
+        "first_name": "Carlos",
+        "last_name": "Teixeira",
+        "bio": "...",
+        "group": "GREENS/EFA",
+        "local_party": "LIVRE",
+        "img_name": "",
+        "tags": []
+    },
+    {
+        "pos": 4,
+        "first_name": "Mafalda",
+        "last_name": "D\u00e2maso",
+        "bio": "...",
+        "group": "GREENS/EFA",
+        "local_party": "LIVRE",
+        "img_name": "",
+        "tags": []
+    },
+    {
+        "pos": 5,
+        "first_name": "Tom\u00e1s",
+        "last_name": "Cardoso Pereira",
+        "bio": "...",
+        "group": "GREENS/EFA",
+        "local_party": "LIVRE",
+        "img_name": "",
+        "tags": []
+    },
+    {
+        "pos": 6,
+        "first_name": "In\u00eas",
+        "last_name": "Pires",
+        "bio": "...",
+        "group": "GREENS/EFA",
+        "local_party": "LIVRE",
+        "img_name": "",
+        "tags": []
+    }
+]

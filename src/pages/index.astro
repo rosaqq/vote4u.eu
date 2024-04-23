@@ -1,9 +1,16 @@
 ---
 import Layout from '../layouts/Layout.astro';
 
-import users from '../../public/users.json'
+import ad from '../../public/lists/ad.json'
+import be from '../../public/lists/be.json'
+import cdu from '../../public/lists/cdu.json'
+import livre from '../../public/lists/livre.json'
+import ps from '../../public/lists/ps.json'
+
 import List from "../components/List";
 import ListItem from "../components/ListItem";
+
+const users = [...ad, ...be, ...cdu, ...livre, ...ps];
 
 const arr_groups = ['PS', 'PSD', 'BE', 'PCP', 'Ind'];
 const arr_stance = ['pro-eu', 'anti-eu', 'pro-climate', 'anti-climate', 'federalist', 'nationalist', "a9_0337_2023_FOR", "a9_0337_2023_AGAINST", "a9_0337_2023_ABSTENTION"];

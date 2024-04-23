@@ -1,0 +1,212 @@
+[
+    {
+        "pos": 1,
+        "first_name": "Jo\u00e3o",
+        "last_name": "Oliveira",
+        "bio": "...",
+        "group": "LEFT",
+        "local_party": "PCP",
+        "img_name": "",
+        "tags": []
+    },
+    {
+        "pos": 2,
+        "first_name": "Sandra",
+        "last_name": "Pereira",
+        "bio": "...",
+        "group": "LEFT",
+        "local_party": "PCP",
+        "img_name": "",
+        "tags": []
+    },
+    {
+        "pos": 3,
+        "first_name": "Jo\u00e3o",
+        "last_name": "Pimenta Lopes",
+        "bio": "...",
+        "group": "LEFT",
+        "local_party": "PCP",
+        "img_name": "",
+        "tags": []
+    },
+    {
+        "pos": 4,
+        "first_name": "Mariana",
+        "last_name": "Silva",
+        "bio": "...",
+        "group": "GREENS/EFA",
+        "local_party": "PEV",
+        "img_name": "",
+        "tags": []
+    },
+    {
+        "pos": 5,
+        "first_name": "Joel",
+        "last_name": "Moriano",
+        "bio": "...",
+        "group": "LEFT",
+        "local_party": "PCP",
+        "img_name": "",
+        "tags": []
+    },
+    {
+        "pos": 6,
+        "first_name": "Isabel",
+        "last_name": "Cristina Tavares",
+        "bio": "...",
+        "group": "LEFT",
+        "local_party": "PCP",
+        "img_name": "",
+        "tags": []
+    },
+    {
+        "pos": 7,
+        "first_name": "Francisco",
+        "last_name": "Calheiros",
+        "bio": "...",
+        "group": "LEFT",
+        "local_party": "PCP",
+        "img_name": "",
+        "tags": []
+    },
+    {
+        "pos": 8,
+        "first_name": "In\u00eas",
+        "last_name": "Guerreiro",
+        "bio": "...",
+        "group": "LEFT",
+        "local_party": "PCP",
+        "img_name": "",
+        "tags": []
+    },
+    {
+        "pos": 9,
+        "first_name": "Gisela",
+        "last_name": "Matias",
+        "bio": "...",
+        "group": "LEFT",
+        "local_party": "PCP",
+        "img_name": "",
+        "tags": []
+    },
+    {
+        "pos": 10,
+        "first_name": "Manuel",
+        "last_name": "Loff",
+        "bio": "...",
+        "group": "LEFT",
+        "local_party": "PCP",
+        "img_name": "",
+        "tags": []
+    },
+    {
+        "pos": 11,
+        "first_name": "Ana",
+        "last_name": "Margarida de Carvalho",
+        "bio": "...",
+        "group": "LEFT",
+        "local_party": "PCP",
+        "img_name": "",
+        "tags": []
+    },
+    {
+        "pos": 12,
+        "first_name": "Jo\u00e3o",
+        "last_name": "Geraldes",
+        "bio": "...",
+        "group": "LEFT",
+        "local_party": "PCP",
+        "img_name": "",
+        "tags": []
+    },
+    {
+        "pos": 13,
+        "first_name": "Duarte",
+        "last_name": "Martins",
+        "bio": "...",
+        "group": "LEFT",
+        "local_party": "PCP",
+        "img_name": "",
+        "tags": []
+    },
+    {
+        "pos": 14,
+        "first_name": "C\u00e1tia",
+        "last_name": "Benedetti",
+        "bio": "...",
+        "group": "LEFT",
+        "local_party": "PCP",
+        "img_name": "",
+        "tags": []
+    },
+    {
+        "pos": 15,
+        "first_name": "Seyne",
+        "last_name": "Torres",
+        "bio": "...",
+        "group": "LEFT",
+        "local_party": "PCP",
+        "img_name": "",
+        "tags": []
+    },
+    {
+        "pos": 16,
+        "first_name": "Ant\u00f3nio",
+        "last_name": "Magrinho",
+        "bio": "...",
+        "group": "LEFT",
+        "local_party": "PCP",
+        "img_name": "",
+        "tags": []
+    },
+    {
+        "pos": 17,
+        "first_name": "Elsa",
+        "last_name": "Dores",
+        "bio": "...",
+        "group": "LEFT",
+        "local_party": "PCP",
+        "img_name": "",
+        "tags": []
+    },
+    {
+        "pos": 18,
+        "first_name": "Vitor",
+        "last_name": "Rodrigues",
+        "bio": "...",
+        "group": "LEFT",
+        "local_party": "PCP",
+        "img_name": "",
+        "tags": []
+    },
+    {
+        "pos": 19,
+        "first_name": "Rafael",
+        "last_name": "Plowden",
+        "bio": "...",
+        "group": "LEFT",
+        "local_party": "PCP",
+        "img_name": "",
+        "tags": []
+    },
+    {
+        "pos": 20,
+        "first_name": "Marta",
+        "last_name": "Parente",
+        "bio": "...",
+        "group": "GREENS/EFA",
+        "local_party": "PEV",
+        "img_name": "",
+        "tags": []
+    },
+    {
+        "pos": 21,
+        "first_name": "Lu\u00edsa",
+        "last_name": "Silva",
+        "bio": "...",
+        "group": "LEFT",
+        "local_party": "PCP",
+        "img_name": "",
+        "tags": []
+    }
+]

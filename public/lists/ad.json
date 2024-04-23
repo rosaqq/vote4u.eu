@@ -1,0 +1,212 @@
+[
+    {
+        "pos": 1,
+        "first_name": "Sebasti\u00e3o",
+        "last_name": "Bugalho",
+        "bio": "...",
+        "group": "EPP",
+        "local_party": "Ind",
+        "img_name": "",
+        "tags": []
+    },
+    {
+        "pos": 2,
+        "first_name": "Paulo",
+        "last_name": "Cunha",
+        "bio": "...",
+        "group": "EPP",
+        "local_party": "PSD",
+        "img_name": "",
+        "tags": []
+    },
+    {
+        "pos": 3,
+        "first_name": "Ana",
+        "last_name": "Miguel Pedro",
+        "bio": "...",
+        "group": "EPP",
+        "local_party": "CDS",
+        "img_name": "",
+        "tags": []
+    },
+    {
+        "pos": 4,
+        "first_name": "Helder",
+        "last_name": "Sousa e Silva",
+        "bio": "...",
+        "group": "EPP",
+        "local_party": "PSD",
+        "img_name": "",
+        "tags": []
+    },
+    {
+        "pos": 5,
+        "first_name": "L\u00eddia",
+        "last_name": "Pereira",
+        "bio": "...",
+        "group": "EPP",
+        "local_party": "PSD",
+        "img_name": "",
+        "tags": []
+    },
+    {
+        "pos": 6,
+        "first_name": "S\u00e9rgio",
+        "last_name": "Humberto",
+        "bio": "...",
+        "group": "EPP",
+        "local_party": "PSD",
+        "img_name": "",
+        "tags": []
+    },
+    {
+        "pos": 7,
+        "first_name": "Paulo",
+        "last_name": "Nascimento Cabral",
+        "bio": "...",
+        "group": "EPP",
+        "local_party": "PSD",
+        "img_name": "",
+        "tags": []
+    },
+    {
+        "pos": 8,
+        "first_name": "Carla",
+        "last_name": "Rodrigues",
+        "bio": "...",
+        "group": "EPP",
+        "local_party": "PSD",
+        "img_name": "",
+        "tags": []
+    },
+    {
+        "pos": 9,
+        "first_name": "Rubina",
+        "last_name": "Leal",
+        "bio": "...",
+        "group": "EPP",
+        "local_party": "PSD",
+        "img_name": "",
+        "tags": []
+    },
+    {
+        "pos": 10,
+        "first_name": "Vasco",
+        "last_name": "Becker Weinberg",
+        "bio": "...",
+        "group": "EPP",
+        "local_party": "CDS",
+        "img_name": "",
+        "tags": []
+    },
+    {
+        "pos": 11,
+        "first_name": "V\u00e2nia",
+        "last_name": "Neto",
+        "bio": "...",
+        "group": "EPP",
+        "local_party": "PSD",
+        "img_name": "",
+        "tags": []
+    },
+    {
+        "pos": 12,
+        "first_name": "Te\u00f3filo",
+        "last_name": "Santos",
+        "bio": "...",
+        "group": "EPP",
+        "local_party": "PSD",
+        "img_name": "",
+        "tags": []
+    },
+    {
+        "pos": 13,
+        "first_name": "Nuno",
+        "last_name": "Matias",
+        "bio": "...",
+        "group": "EPP",
+        "local_party": "PSD",
+        "img_name": "",
+        "tags": []
+    },
+    {
+        "pos": 14,
+        "first_name": "Alexandra",
+        "last_name": "Rodrigues Gon\u00e7alves",
+        "bio": "...",
+        "group": "EPP",
+        "local_party": "PSD",
+        "img_name": "",
+        "tags": []
+    },
+    {
+        "pos": 15,
+        "first_name": "Jos\u00e9",
+        "last_name": "Monteiro Lim\u00e3o",
+        "bio": "...",
+        "group": "EPP",
+        "local_party": "CDS",
+        "img_name": "",
+        "tags": []
+    },
+    {
+        "pos": 16,
+        "first_name": "Ricardo",
+        "last_name": "Morgado",
+        "bio": "...",
+        "group": "EPP",
+        "local_party": "PSD",
+        "img_name": "",
+        "tags": []
+    },
+    {
+        "pos": 17,
+        "first_name": "Felismina",
+        "last_name": "Barros",
+        "bio": "...",
+        "group": "EPP",
+        "local_party": "PSD",
+        "img_name": "",
+        "tags": []
+    },
+    {
+        "pos": 18,
+        "first_name": "Francisco",
+        "last_name": "Figueira",
+        "bio": "...",
+        "group": "EPP",
+        "local_party": "PSD",
+        "img_name": "",
+        "tags": []
+    },
+    {
+        "pos": 19,
+        "first_name": "J\u00falio",
+        "last_name": "Santos",
+        "bio": "...",
+        "group": "EPP",
+        "local_party": "PSD",
+        "img_name": "",
+        "tags": []
+    },
+    {
+        "pos": 20,
+        "first_name": "Maria",
+        "last_name": "Jos\u00e9 Moreno",
+        "bio": "...",
+        "group": "EPP",
+        "local_party": "PSD",
+        "img_name": "",
+        "tags": []
+    },
+    {
+        "pos": 21,
+        "first_name": "Pedro",
+        "last_name": "Folgado",
+        "bio": "...",
+        "group": "EPP",
+        "local_party": "PSD",
+        "img_name": "",
+        "tags": []
+    }
+]
