@@ -25,3 +25,10 @@ for line in lines:
 
 with open('out.json', 'w', encoding='utf-8') as a:
     json.dump(res, a, indent=4)
+
+
+"""
+notes
+info pcp: https://www.pcp.pt/12-primeiros-candidatos-da-lista-da-coligacao-democratica-unitaria-eleicoes-para-parlamento-europeu
+
+"""
