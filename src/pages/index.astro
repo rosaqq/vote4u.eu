@@ -9,6 +9,7 @@ import ps from '../../public/lists/ps.json'
 
 import List from "../components/List";
 import ListItem from "../components/ListItem";
+import RadioImg from '../components/RadioImg';
 
 const users = [...ad, ...be, ...cdu, ...livre, ...ps];
 
@@ -47,11 +48,46 @@ const arr_stance = ['pro-eu', 'anti-eu', 'pro-climate', 'anti-climate', 'federal
 // })
 
 // console.log(users);
+
+let options = [
+	{
+		val: 'ad',
+		title: 'PSD + CDS + PPM',
+		img: 'ad.svg',
+		bg_size: '70%'
+	},
+	{
+		val: 'be',
+		title: 'Bloco de Esquerda',
+		img: 'be.svg',
+		bg_size: '70%'
+	},
+	{
+		val: 'cdu',
+		title: 'PCP + PEV',
+		img: 'cdu.svg',
+		bg_size: '80%'
+	},
+	{
+		val: 'livre',
+		title: 'Livre',
+		img: 'livre.png',
+		bg_size: 'cover'
+	},
+	{
+		val: 'ps',
+		title: 'Partido Socialista',
+		img: 'ps.svg',
+		bg_size: 'cover'
+	}
+]
 ---
 
 <Layout title="Eurodeputados">
 	<main>
-		<h1>Euro-deputados</h1>
+		<h1>Euro-candidatos</h1>
+
+		<RadioImg options={options} client:load />
 
 		<div class="relative z-10 rounded-xl shadow-xl ring-1 ring-slate-900/5 divide-y my-auto xl:mt-18 bg-slate-800 divide-slate-200/5 highlight-white/10">
 			<List>
@@ -93,7 +129,7 @@ const arr_stance = ['pro-eu', 'anti-eu', 'pro-climate', 'anti-climate', 'federal
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
 		background-size: 400%;
-		background-position: 0%;
+		background-position: 0;
 	}
 	.instructions {
 		margin-bottom: 2rem;
