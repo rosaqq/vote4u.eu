@@ -2,10 +2,10 @@ export default function ListItem({ user }) {
     const { pos, first_name, last_name, bio, list, local_party, group, tags } = user;
     const img_src = `/img/ppl/${list.toLowerCase()}/${pos}.jpg`;
     return (
-        <article className="hidden profile flex items-start space-x-6 p-6" data-list={list.toLowerCase()}>
-            <img src={img_src} alt="" width="60" height="88" className="flex-none rounded-md bg-slate-100" />
+        <article className="hidden profile flex items-start space-x-6 p-6 text-base md:text-xl" data-radio={list.toLowerCase()}>
+            <img src={img_src} alt="" width="60" height="88" className="flex-none rounded-md bg-slate-100"/>
             <div className="min-w-0 relative flex-auto">
-                <h2 className="font-semibold text-slate-100 truncate pr-20">{pos + ". " + first_name + " " + last_name}</h2>
+                <h2 className="font-semibold text-slate-100 truncate">{pos + ". " + first_name + " " + last_name}</h2>
                 <dl className="mt-2 flex flex-wrap text-sm leading-6 font-medium">
 
                     <div className="text-slate-200">

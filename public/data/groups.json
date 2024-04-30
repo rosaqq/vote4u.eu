@@ -1,0 +1,100 @@
+[
+  {
+    "slug": "ecr",
+    "name": "European Conservatives and Reformists Group",
+    "label": "ECR",
+    "img": "ecr.svg",
+    "policies": [
+      {"k": "defense", "v": ""},
+      {"k": "migration", "v": ""},
+      {"k": "climate", "v": ""},
+      {"k": "economy", "v": ""},
+      {"k": "social", "v": ""},
+      {"k": "eu", "v": ""}
+    ]
+  },
+  {
+    "slug": "epp",
+    "name": "European People's Party Group",
+    "label": "EPP Group",
+    "img": "epp.svg",
+    "policies": [
+      {"k": "defense", "v": ""},
+      {"k": "migration", "v": ""},
+      {"k": "climate", "v": ""},
+      {"k": "economy", "v": ""},
+      {"k": "social", "v": ""},
+      {"k": "eu", "v": ""}
+    ]
+  },
+  {
+    "slug": "greens",
+    "name": "The Greens/European Free Alliance",
+    "label": "Greens/EFA",
+    "img": "greensefa.svg",
+    "policies": [
+      {"k": "defense", "v": ""},
+      {"k": "migration", "v": ""},
+      {"k": "climate", "v": ""},
+      {"k": "economy", "v": ""},
+      {"k": "social", "v": ""},
+      {"k": "eu", "v": ""}
+    ]
+  },
+  {
+    "slug": "id",
+    "name": "Identity and Democracy",
+    "label": "ID",
+    "img": "id.svg",
+    "policies": [
+      {"k": "defense", "v": ""},
+      {"k": "migration", "v": ""},
+      {"k": "climate", "v": ""},
+      {"k": "economy", "v": ""},
+      {"k": "social", "v": ""},
+      {"k": "eu", "v": ""}
+    ]
+  },
+  {
+    "slug": "left",
+    "name": "The Left in the European Parliament",
+    "label": "The Left",
+    "img": "left.svg",
+    "policies": [
+      {"k": "defense", "v": "Opposes conflicts\nUkraine ceasefire\nRussia sanctions\nAgainst NATO growth\nAgainst military spending\nGaza ceasefire\nIsrael withdrawal\nPalestinian rights & 1967 borders\nNo USA reliance"},
+      {"k": "migration", "v": "No \"fortress europe\"\nDismantle Frontex\nNo asylum process in 3rd countries\nSafe migration channels\nProtect migrants\nIncrease EU solidarity\nFoster peace globally\nStop exploitation of 3rd countries"},
+      {"k": "climate", "v": "Cut emissions by 65% 2030\nClimate neutral 2035\nPublic ownership of water & energy\nNo privatization\nEU funds public services\nControl car production\nBan private jets\nPrioritize trains\nExpand public transport"},
+      {"k": "economy", "v": "Invest in green jobs\nRedirect military spending to social initiatives\nEnergy profits to public\nEnd tax havens\nLow interest rate loans for green projects\nEU basic income\nEnd unpaid internships\nEqual treatment for migrant workers\nReduce work hours"},
+      {"k": "social", "v": "Affordable & decent housing\nLimit on rent\nStop unfair evictions\nHousing for students\nNo education privatization\n7% EU GDP to education & research\n No tuition fees\n2% EU GDP to culture\nEqual work & pay for women"},
+      {"k": "eu", "v": "Treaty change\nAnti-fascist values in treaties\nParliament to draft laws\nParliament to select commission\nParliament to manage budget\nParliament to supervise ECB\nDon't eliminate the veto\nSupport Ireland reunification\nEnlargement only if human rights respected"}
+    ]
+  },
+  {
+    "slug": "renew",
+    "name": "Renew Europe",
+    "label": "Renew",
+    "img": "renew.svg",
+    "policies": [
+      {"k": "defense", "v": ""},
+      {"k": "migration", "v": ""},
+      {"k": "climate", "v": ""},
+      {"k": "economy", "v": ""},
+      {"k": "social", "v": ""},
+      {"k": "eu", "v": ""}
+    ]
+  },
+  {
+    "slug": "sd",
+    "name": "Progressive Alliance of Socialists and Democrats",
+    "label": "S&D",
+    "img": "sd.svg",
+    "policies": [
+      {"k": "defense", "v": "Pro Ukraine\nEU defense policy\nPro NATO\nJoint procurement for defense\nEnhance cybersecurity\nProtect critical infrastructure\nEnd Cyprus conflict\nPeace conference for Gaza\nTwo-state solution"},
+      {"k": "migration", "v": "Strengthen EU borders\nCombat smugglers\nMigrant rights & safety\nProtect migrant children\nLegal support for migrants\nRespectful migration procedures\nPartnership with 3rd countries\nNo asylum process in 3rd countries\nSupport rescue missions"},
+      {"k": "climate", "v": "A green social deal\nClimate neutral 2050\nFocus on renewable energy\nFight plastic & chemical pollution\nFinancial help to farmers\nReduce pesticides\nProtect biodiversity\nStabilize energy prices\nModernize energy infrastructure\nEU energy independence"},
+      {"k": "economy", "v": "No austerity & social regression\n\"Made in EU\" strategy\nEU investment capacity\nBigger EU budget\nInvest in green transition\nInvest in digital transition\nRaw material independence\nTechnology independence\nProtect workers from crises\nRegulate financial markets"},
+      {"k": "social", "v": "Quality jobs\nCombat in-work poverty\nRegulate AI\nZero deaths at work\nReduce work time\nSupport unions\nAffordable housing\nEU health union\nMental health strategy\nFair drug pricing\nPolluter tax\nStop tax havens\nFeminism\nLGBTI rights\nFree education & student housing"},
+      {"k": "eu", "v": "Pro treaty change\n Pro enlargement\nEmpower parliament\nEmpower commission\nRemove veto for tax\nNo accession for Turkey\nVery pro EU"}
+    ]
+  }
+]

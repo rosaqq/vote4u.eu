@@ -1,83 +1,50 @@
 ---
 import Layout from '../layouts/Layout.astro';
 
-import ad from '../../public/data/ad.json'
-import be from '../../public/data/be.json'
-import cdu from '../../public/data/cdu.json'
-import livre from '../../public/data/livre.json'
-import ps from '../../public/data/ps.json'
+import groups from '../../public/data/groups.json';
+
+import ad from '../../public/data/ad.json';
+import be from '../../public/data/be.json';
+import cdu from '../../public/data/cdu.json';
+import livre from '../../public/data/livre.json';
+import ps from '../../public/data/ps.json';
 
 import List from "../components/List";
 import ListItem from "../components/ListItem";
 import RadioImg from '../components/RadioImg';
+import GroupCard from "../components/GroupCard.astro";
 
 const users = [...ad, ...be, ...cdu, ...livre, ...ps];
-
-const arr_groups = ['PS', 'PSD', 'BE', 'PCP', 'Ind'];
-const arr_stance = ['pro-eu', 'anti-eu', 'pro-climate', 'anti-climate', 'federalist', 'nationalist', "a9_0337_2023_FOR", "a9_0337_2023_AGAINST", "a9_0337_2023_ABSTENTION"];
-
-// THIS BLOCK
-// Used to generate intemediate arrays to get the vote info
-
-// let pt_votes = [];
-
-// fetch('https://howtheyvote.eu/api/votes/160487').then((res)=>res.json()).then((json) => {
-
-// 	json.member_votes.forEach(element => {
-// 		if (element.member.country.iso_alpha_2 === 'PT')
-// 		{
-// 			pt_votes.push(
-// 				{
-// 					"first_name": element.member.first_name,
-// 					"last_name": element.member.last_name,
-// 					"position": element.position
-// 				}
-// 			)
-// 		}
-// 	});
-
-// 	console.log(pt_votes)
-// });
-
-// import votes from '../../public/A9_0337_2023.json'
-
-// users.forEach(user=>{
-// 	let rel_vote = votes.filter(elem => (elem.last_name === user.last_name));
-
-// 	user.tags.push("a9_0337_2023_"  +  rel_vote[0].position);
-// })
-
-// console.log(users);
 
 let options = [
 	{
 		val: 'ad',
 		title: 'PSD + CDS + PPM',
-		img: 'ad.svg',
+		img: 'listas/ad.svg',
 		bg_size: '70%'
 	},
 	{
 		val: 'be',
 		title: 'Bloco de Esquerda',
-		img: 'be.svg',
+		img: 'listas/be.svg',
 		bg_size: '70%'
 	},
 	{
 		val: 'cdu',
 		title: 'PCP + PEV',
-		img: 'cdu.svg',
+		img: 'listas/cdu.svg',
 		bg_size: '80%'
 	},
 	{
 		val: 'livre',
 		title: 'Livre',
-		img: 'livre.png',
+		img: 'listas/livre.png',
 		bg_size: 'cover'
 	},
 	{
 		val: 'ps',
 		title: 'Partido Socialista',
-		img: 'ps.svg',
+		img: 'listas/ps.svg',
 		bg_size: 'cover'
 	}
 ]
@@ -85,9 +52,19 @@ let options = [
 
 <Layout title="Eurodeputados">
 	<main>
+
 		<h1>Euro-candidatos</h1>
 
-		<RadioImg options={options} client:load />
+		<div class="flex overflow-scroll">
+			{groups.map((group) => (
+				<GroupCard group={group} />
+			))}
+		</div>
+
+		<!-- List radio -->
+		<div class="m-4 flex justify-center">
+			<RadioImg options={options} target_class="profile" client:load />
+		</div>
 
 		<div class="relative z-10 rounded-xl shadow-xl ring-1 ring-slate-900/5 divide-y my-auto xl:mt-18 bg-slate-800 divide-slate-200/5 highlight-white/10">
 			<List>
@@ -108,51 +85,11 @@ let options = [
 		font-size: 20px;
 		line-height: 1.6;
 	}
-	.astro-a {
-		position: absolute;
-		top: -32px;
-		left: 50%;
-		transform: translatex(-50%);
-		width: 220px;
-		height: auto;
-		z-index: -1;
-	}
 	h1 {
 		font-size: 4rem;
 		font-weight: 700;
 		line-height: 1;
 		text-align: center;
 		margin-bottom: 1em;
-	}
-	.text-gradient {
-		background-image: var(--accent-gradient);
-		-webkit-background-clip: text;
-		-webkit-text-fill-color: transparent;
-		background-size: 400%;
-		background-position: 0;
-	}
-	.instructions {
-		margin-bottom: 2rem;
-		border: 1px solid rgba(var(--accent-light), 25%);
-		background: linear-gradient(rgba(var(--accent-dark), 66%), rgba(var(--accent-dark), 33%));
-		padding: 1.5rem;
-		border-radius: 8px;
-	}
-	.instructions code {
-		font-size: 0.8em;
-		font-weight: bold;
-		background: rgba(var(--accent-light), 12%);
-		color: rgb(var(--accent-light));
-		border-radius: 4px;
-		padding: 0.3em 0.4em;
-	}
-	.instructions strong {
-		color: rgb(var(--accent-light));
-	}
-	.link-card-grid {
-		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr));
-		gap: 2rem;
-		padding: 0;
 	}
 </style>

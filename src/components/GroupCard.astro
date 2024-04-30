@@ -1,0 +1,80 @@
+---
+
+import RadioImg from '../components/RadioImg';
+
+const {group} = Astro.props;
+const {slug, name, label, img, policies} = group;
+
+const options =  [
+    {
+        val: 'defense',
+        title: 'Defense',
+        img: 'sym/shield-shaded.svg',
+        bg_size: '70%'
+    },
+    {
+        val: 'migration',
+        title: 'Migration',
+        img: 'sym/bricks.svg',
+        bg_size: '70%'
+    },
+    {
+        val: 'climate',
+        title: 'Climate change & energy',
+        img: 'sym/recycle.svg',
+        bg_size: '70%'
+    },
+    {
+        val: 'economy',
+        title: 'Economy',
+        img: 'sym/currency-euro.svg',
+        bg_size: '70%'
+    },
+    {
+        val: 'social',
+        title: 'Social',
+        img: 'sym/heart-pulse-fill.svg',
+        bg_size: '70%'
+    },
+    {
+        val: 'eu',
+        title: 'EU reform & enlargement',
+        img: 'sym/flag-fill.svg',
+        bg_size: '70%'
+    }
+];
+---
+<div class="groupcard flex flex-col items-center font-sans outline-none" data-radio={slug}>
+    <div class="w-48 h-24">
+        <img src={`/img/groups/${img}`} alt="" class="w-full h-full object-contain" />
+    </div>
+
+    
+    <div class="flex-auto p-4">
+        <!--<div class="flex flex-wrap">-->
+        <!--    <h1 class="flex-auto text-lg font-semibold text-slate-100">-->
+        <!--        {name}-->
+        <!--    </h1>-->
+        <!--</div>-->
+
+        <!-- Radio -->
+        <div class="flex items-baseline mb-2 pb-4 border-b border-slate-200">
+            <div class="space-x-2 flex text-sm">
+                <RadioImg options={options} size="size-8" margin="mx-0.5" target_class={`group_policy_${slug}`} client:load />
+            </div>
+        </div>
+        <!-- Desc -->
+
+        {options.map((o) => (
+            <p class={`group_policy_${slug} text-lg text-slate-100 hidden`} data-radio={o.val}>{o.title}</p>
+        ))}
+
+        {policies.map((p: any) => (
+            <ul class={`group_policy_${slug} text-sm text-slate-300 list-disc list-inside hidden`} data-radio={p.k}>
+                {p.v.split("\n").map((v: string) => (
+                    <li>{v}</li>
+                ))}
+            </ul>
+        ))}
+    </div>
+</div>
