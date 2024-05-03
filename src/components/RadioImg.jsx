@@ -19,7 +19,7 @@ export default class RadioImg extends Component {
     constructor(props) {
         super(props);
 
-        // todo: read up on this https://www.iamtimsmith.com/blog/this-state-how-to-use-state-in-react
+        // TODO: read up on this https://www.iamtimsmith.com/blog/this-state-how-to-use-state-in-react
         this.state = {
             options: props.options
         };
