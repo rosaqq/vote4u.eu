@@ -28,20 +28,6 @@
     ]
   },
   {
-    "slug": "greens",
-    "name": "The Greens/European Free Alliance",
-    "label": "Greens/EFA",
-    "img": "greensefa.svg",
-    "policies": [
-      {"k": "defense", "v": ""},
-      {"k": "migration", "v": ""},
-      {"k": "climate", "v": ""},
-      {"k": "economy", "v": ""},
-      {"k": "social", "v": ""},
-      {"k": "eu", "v": ""}
-    ]
-  },
-  {
     "slug": "id",
     "name": "Identity and Democracy",
     "label": "ID",
@@ -67,6 +53,20 @@
       {"k": "economy", "v": "Invest in green jobs\nRedirect military spending to social initiatives\nEnergy profits to public\nEnd tax havens\nLow interest rate loans for green projects\nEU basic income\nEnd unpaid internships\nEqual treatment for migrant workers\nReduce work hours"},
       {"k": "social", "v": "Affordable & decent housing\nLimit on rent\nStop unfair evictions\nHousing for students\nNo education privatization\n7% EU GDP to education & research\n No tuition fees\n2% EU GDP to culture\nEqual work & pay for women"},
       {"k": "eu", "v": "Treaty change\nAnti-fascist values in treaties\nParliament to draft laws\nParliament to select commission\nParliament to manage budget\nParliament to supervise ECB\nDon't eliminate the veto\nSupport Ireland reunification\nEnlargement only if human rights respected"}
+    ]
+  },
+  {
+    "slug": "greens",
+    "name": "The Greens/European Free Alliance",
+    "label": "Greens/EFA",
+    "img": "greensefa.svg",
+    "policies": [
+      {"k": "defense", "v": ""},
+      {"k": "migration", "v": ""},
+      {"k": "climate", "v": ""},
+      {"k": "economy", "v": ""},
+      {"k": "social", "v": ""},
+      {"k": "eu", "v": ""}
     ]
   },
   {
