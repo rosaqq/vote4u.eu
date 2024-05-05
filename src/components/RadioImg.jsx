@@ -6,11 +6,11 @@ import React, { Component } from 'react';
 // target_class: special css class to identify toggle elements
 // margin: tailwind margin class (default = mx-2)
 // size: tailwind size class (default = size-16)
-// onChange: callback to execute on change
 // options: described below
 
 // Options are
 // val: 'button value',
+// eu_group: [], array of eu groups associated with option
 // title: 'tooltip text',
 // img: 'image name, based on /img/<insert name>',
 // bg_size: 'size param for image, i.e. 80% | cover | contain'
@@ -33,13 +33,33 @@ export default class RadioImg extends Component {
 
         if (this.value !== e.target.dataset.val) {
             this.value = e.target.dataset.val;
+            this.eu_group = e.target.dataset.eu_group;
         }
         else {
             this.value = ''; // Reset value so users can deselect
+            this.eu_group = '';
         }
 
-        if (this.props.onChange) {
-            this.props.onChange(this.value, this.target_class);
+        // ON CHANGE FUNC
+
+        // Standard case
+        let elements = document.getElementsByClassName(this.target_class);
+        Array.from(elements).forEach(elem => {
+            // Hide all whose data-radio does not match this element's val
+            let hide = (elem.dataset.radio !== this.value)
+            elem.classList.toggle('hidden', hide);
+        });
+
+
+        // Special EU group case
+        if (this.props.groups) {
+            console.log('this.props.groups');
+            let groups = document.getElementsByClassName('groupcard');
+            Array.from(groups).forEach(group => {
+                // Hide all whose data-radio is not included in the eu_group ref
+                let hide = !this.eu_group.includes(group.dataset.radio)
+                group.classList.toggle('hidden', hide);
+            });
         }
 
         this.forceUpdate();
@@ -57,6 +77,7 @@ export default class RadioImg extends Component {
                     className={clsToUse}
                     onClick={this.click}
                     data-val={item.val}
+                    data-eu_group={item.eu_group}
                     title={item.title}>
                 </button>
             })
@@ -66,14 +87,5 @@ export default class RadioImg extends Component {
 
 RadioImg.defaultProps = {
     margin: 'mx-1 md:mx-2',
-    size: 'size-10 md:size-16',
-    onChange: (val, target_class)=> {
-
-        let elements = document.getElementsByClassName(target_class);
-        Array.from(elements).forEach(elem => {
-            // Hide all whose data-radio does not match this element's val
-            const hide = (elem.dataset.radio !== val)
-            elem.classList.toggle('hidden', hide);
-        });
-    }
+    size: 'size-10 md:size-16'
 };

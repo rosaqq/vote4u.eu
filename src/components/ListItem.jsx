@@ -2,7 +2,6 @@ export default function ListItem({ user }) {
     const { pos, first_name, last_name, bio, list, local_party, group, tags } = user;
     const img_src = `/img/ppl/${list.toLowerCase()}/${pos}.jpg`;
     return (
-        // Ignore warning here: starts hidden but this is toggled by JS
         <article className="hidden profile flex items-start space-x-6 p-6 text-base md:text-xl" data-radio={list.toLowerCase()}>
 
             {/* TODO: send generic image (img/error.jpg) if 404 */}

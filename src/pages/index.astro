@@ -19,30 +19,35 @@ const users = [...ad, ...be, ...cdu, ...livre, ...ps];
 let options = [
 	{
 		val: 'ad',
+		eu_group: ['epp'],
 		title: 'PSD + CDS + PPM',
 		img: 'listas/ad.svg',
 		bg_size: '70%'
 	},
 	{
 		val: 'be',
+		eu_group: ['left'],
 		title: 'Bloco de Esquerda',
 		img: 'listas/be.svg',
 		bg_size: '70%'
 	},
 	{
 		val: 'cdu',
+		eu_group: ['left', 'greens'],
 		title: 'PCP + PEV',
 		img: 'listas/cdu.svg',
 		bg_size: '80%'
 	},
 	{
 		val: 'livre',
+		eu_group: ['greens'],
 		title: 'Livre',
 		img: 'listas/livre.png',
 		bg_size: 'cover'
 	},
 	{
 		val: 'ps',
+		eu_group: ['sd'],
 		title: 'Partido Socialista',
 		img: 'listas/ps.svg',
 		bg_size: 'cover'
@@ -55,7 +60,7 @@ let options = [
 
 		<h1>Euro-candidatos</h1>
 
-		<div class="flex overflow-scroll">
+		<div class="before:ml-auto after:mr-auto flex flex-nowrap overflow-scroll">
 			{groups.map((group) => (
 				<GroupCard group={group} />
 			))}
@@ -63,7 +68,7 @@ let options = [
 
 		<!-- List radio -->
 		<div class="m-4 flex justify-center">
-			<RadioImg options={options} target_class="profile" client:load />
+			<RadioImg options={options} target_class="profile" groups="true" client:load />
 		</div>
 
 		<div class="relative z-10 rounded-xl shadow-xl ring-1 ring-slate-900/5 divide-y my-auto xl:mt-18 bg-slate-800 divide-slate-200/5 highlight-white/10">
