@@ -1,0 +1,52 @@
+[
+  {
+    "pos": 1,
+    "first_name": "Pedro",
+    "last_name": " Fidalgo Marques",
+    "bio": "...",
+    "list": "PAN",
+    "local_party": "PAN",
+    "group": "Greens/EFA",
+    "tags": []
+  },
+  {
+    "pos": 2,
+    "first_name": "Tânia",
+    "last_name": "Mesquita Madeira",
+    "bio": "...",
+    "list": "PAN",
+    "local_party": "PAN",
+    "group": "Greens/EFA",
+    "tags": []
+  },
+  {
+    "pos": 3,
+    "first_name": "Rafael",
+    "last_name": "Pinto",
+    "bio": "...",
+    "list": "PAN",
+    "local_party": "PAN",
+    "group": "Greens/EFA",
+    "tags": []
+  },
+  {
+    "pos": 4,
+    "first_name": "Alexandra",
+    "last_name": "Reis Moreira",
+    "bio": "...",
+    "list": "PAN",
+    "local_party": "PAN",
+    "group": "Greens/EFA",
+    "tags": []
+  },
+  {
+    "pos": 5,
+    "first_name": "Hugo",
+    "last_name": "Alexandre Trindade",
+    "bio": "...",
+    "list": "PAN",
+    "local_party": "PAN",
+    "group": "Greens/EFA",
+    "tags": []
+  }
+]

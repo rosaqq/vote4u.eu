@@ -5,8 +5,11 @@ import groups from '../../public/data/groups.json';
 
 import ad from '../../public/data/ad.json';
 import be from '../../public/data/be.json';
-import cdu from '../../public/data/cdu.json';
+import cdu from '../../public/data/cdu.json'
+import chega from '../../public/data/chega.json';
+import il from '../../public/data/il.json';
 import livre from '../../public/data/livre.json';
+import pan from '../../public/data/pan.json';
 import ps from '../../public/data/ps.json';
 
 import List from "../components/List";
@@ -14,7 +17,7 @@ import ListItem from "../components/ListItem";
 import RadioImg from '../components/RadioImg';
 import GroupCard from "../components/GroupCard.astro";
 
-const users = [...ad, ...be, ...cdu, ...livre, ...ps];
+const users = [...ad, ...be, ...cdu, ...chega, ...il, ...livre, ...pan, ...ps];
 
 let options = [
 	{
@@ -39,11 +42,32 @@ let options = [
 		bg_size: '80%'
 	},
 	{
+		val: 'chega',
+		eu_group: ['id'],
+		title: 'Chega',
+		img: 'listas/chega.png',
+		bg_size: 'cover'
+	},
+	{
+		val: 'il',
+		eu_group: ['renew'],
+		title: 'Iniciativa Liberal',
+		img: 'listas/il.png',
+		bg_size: 'cover'
+	},
+	{
 		val: 'livre',
 		eu_group: ['greens'],
 		title: 'Livre',
 		img: 'listas/livre.png',
 		bg_size: 'cover'
+	},
+	{
+		val: 'pan',
+		eu_group: ['greens'],
+		title: 'PAN',
+		img: 'listas/pan.svg',
+		bg_size: 'contain'
 	},
 	{
 		val: 'ps',
@@ -55,22 +79,24 @@ let options = [
 ]
 ---
 
-<Layout title="Eurodeputados">
+<Layout title="Europeias 2024">
 	<main>
 
-		<h1>Euro-candidatos</h1>
+		<h1 class="md:text-7xl text-4xl font-bold text-center mb-4">Europeias 2024</h1>
 
+		<!-- List radio -->
+		<div class="m-4 mb-8 flex justify-center flex-wrap md:flex-nowrap">
+			<RadioImg options={options} target_class="profile" groups="true" client:load />
+		</div>
+
+		<!-- EU groups -->
 		<div class="before:ml-auto after:mr-auto flex flex-nowrap overflow-scroll">
 			{groups.map((group) => (
 				<GroupCard group={group} />
 			))}
 		</div>
 
-		<!-- List radio -->
-		<div class="m-4 flex justify-center">
-			<RadioImg options={options} target_class="profile" groups="true" client:load />
-		</div>
-
+		<!-- Candidate lists -->
 		<div class="relative z-10 rounded-xl shadow-xl ring-1 ring-slate-900/5 divide-y my-auto xl:mt-18 bg-slate-800 divide-slate-200/5 highlight-white/10">
 			<List>
 				{users.map((user) => (
@@ -89,12 +115,5 @@ let options = [
 		max-width: calc(100% - 2rem);
 		font-size: 20px;
 		line-height: 1.6;
-	}
-	h1 {
-		font-size: 4rem;
-		font-weight: 700;
-		line-height: 1;
-		text-align: center;
-		margin-bottom: 1em;
 	}
 </style>

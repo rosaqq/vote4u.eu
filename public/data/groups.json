@@ -29,8 +29,8 @@
   },
   {
     "slug": "id",
-    "name": "Identity and Democracy",
-    "label": "ID",
+    "name": "Identity and Democracy Group",
+    "label": "ID Group",
     "img": "id.svg",
     "policies": [
       {"k": "defense", "v": ""},

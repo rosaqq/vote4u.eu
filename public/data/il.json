@@ -1,0 +1,52 @@
+[
+  {
+    "pos": 1,
+    "first_name": "João",
+    "last_name": "Cotrim Figueiredo",
+    "bio": "...",
+    "list": "IL",
+    "local_party": "IL",
+    "group": "Renew",
+    "tags": []
+  },
+  {
+    "pos": 2,
+    "first_name": "Ana",
+    "last_name": "Martins",
+    "bio": "...",
+    "list": "IL",
+    "local_party": "IL",
+    "group": "Renew",
+    "tags": []
+  },
+  {
+    "pos": 3,
+    "first_name": "António",
+    "last_name": "Costa Amaral",
+    "bio": "...",
+    "list": "IL",
+    "local_party": "IL",
+    "group": "Renew",
+    "tags": []
+  },
+  {
+    "pos": 4,
+    "first_name": "Paulo",
+    "last_name": "Alcarva",
+    "bio": "...",
+    "list": "IL",
+    "local_party": "IL",
+    "group": "Renew",
+    "tags": []
+  },
+  {
+    "pos": 5,
+    "first_name": "Inês",
+    "last_name": "Gregório",
+    "bio": "...",
+    "list": "IL",
+    "local_party": "IL",
+    "group": "Renew",
+    "tags": []
+  }
+]
