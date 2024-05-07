@@ -1,6 +1,7 @@
 # A little pet project
 
-Candidate guide for the Portuguese EU elections
+Candidate guide for the Portuguese EU elections  
+Also an excuse to get started with astro, react, and tailwind honestly :)  
 
 
 # Astro (framework) info ...
@@ -42,6 +43,7 @@ All commands are run from the root of the project, from a terminal:
 | `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
 | `npm run astro -- --help` | Get help using the Astro CLI                     |
 
-## 👀 Want to learn more?
+## Note to self: useful links
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+React component state: https://www.iamtimsmith.com/blog/this-state-how-to-use-state-in-react
+
