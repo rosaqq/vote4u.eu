@@ -5,12 +5,12 @@
     "label": "ECR",
     "img": "ecr.svg",
     "policies": [
-      {"k": "defense", "v": ""},
-      {"k": "migration", "v": ""},
-      {"k": "climate", "v": ""},
-      {"k": "economy", "v": ""},
-      {"k": "social", "v": ""},
-      {"k": "eu", "v": ""}
+      {"k": "defense", "v": []},
+      {"k": "migration", "v": []},
+      {"k": "climate", "v": []},
+      {"k": "economy", "v": []},
+      {"k": "social", "v": []},
+      {"k": "eu", "v": []}
     ]
   },
   {
@@ -19,12 +19,18 @@
     "label": "EPP Group",
     "img": "epp.svg",
     "policies": [
-      {"k": "defense", "v": ""},
-      {"k": "migration", "v": ""},
-      {"k": "climate", "v": ""},
-      {"k": "economy", "v": ""},
-      {"k": "social", "v": ""},
-      {"k": "eu", "v": ""}
+      {"k": "defense", "v": [
+        ["0.25% PIB em apoio militar à Ucrânia", "https://www.eppgroup.eu/newsroom/give-0-25-of-gdp-for-ukraine-s-victory"],
+        ["Confiscar bens russos", "https://www.eppgroup.eu/newsroom/make-russia-foot-the-entire-bill-for-ukraine-s-devastation"],
+        ["Política de defesa comum", ""],
+        ["Investir na defesa", ""],
+        ["Futura união militar", "https://www.eppgroup.eu/newsroom/position-paper-on-a-european-defence-union"]
+      ]},
+      {"k": "migration", "v": []},
+      {"k": "climate", "v": []},
+      {"k": "economy", "v":  []},
+      {"k": "social", "v":  []},
+      {"k": "eu", "v":  []}
     ]
   },
   {
@@ -33,12 +39,12 @@
     "label": "ID Group",
     "img": "id.svg",
     "policies": [
-      {"k": "defense", "v": ""},
-      {"k": "migration", "v": ""},
-      {"k": "climate", "v": ""},
-      {"k": "economy", "v": ""},
-      {"k": "social", "v": ""},
-      {"k": "eu", "v": ""}
+      {"k": "defense", "v": []},
+      {"k": "migration", "v": []},
+      {"k": "climate", "v": []},
+      {"k": "economy", "v": []},
+      {"k": "social", "v": []},
+      {"k": "eu", "v": []}
     ]
   },
   {
@@ -47,12 +53,69 @@
     "label": "The Left",
     "img": "left.svg",
     "policies": [
-      {"k": "defense", "v": "Opposes conflicts\nUkraine ceasefire\nRussia sanctions\nAgainst NATO growth\nAgainst military spending\nGaza ceasefire\nIsrael withdrawal\nPalestinian rights & 1967 borders\nNo USA reliance"},
-      {"k": "migration", "v": "No \"fortress europe\"\nDismantle Frontex\nNo asylum process in 3rd countries\nSafe migration channels\nProtect migrants\nIncrease EU solidarity\nFoster peace globally\nStop exploitation of 3rd countries"},
-      {"k": "climate", "v": "Cut emissions by 65% 2030\nClimate neutral 2035\nPublic ownership of water & energy\nNo privatization\nEU funds public services\nControl car production\nBan private jets\nPrioritize trains\nExpand public transport"},
-      {"k": "economy", "v": "Invest in green jobs\nRedirect military spending to social initiatives\nEnergy profits to public\nEnd tax havens\nLow interest rate loans for green projects\nEU basic income\nEnd unpaid internships\nEqual treatment for migrant workers\nReduce work hours"},
-      {"k": "social", "v": "Affordable & decent housing\nLimit on rent\nStop unfair evictions\nHousing for students\nNo education privatization\n7% EU GDP to education & research\n No tuition fees\n2% EU GDP to culture\nEqual work & pay for women"},
-      {"k": "eu", "v": "Treaty change\nAnti-fascist values in treaties\nParliament to draft laws\nParliament to select commission\nParliament to manage budget\nParliament to supervise ECB\nDon't eliminate the veto\nSupport Ireland reunification\nEnlargement only if human rights respected"}
+      {"k": "defense", "v": [
+        ["Anti conflitos", ""],
+        ["Cessar-fogo na Ucrânia", ""],
+        ["Sanções à Rússia", ""],
+        ["Contra a expansão da NATO", ""],
+        ["Contra investimento militar", ""],
+        ["Cessar-fogo em Gaza", ""],
+        ["Retirada de Israel", ""],
+        ["Diretos e fronteiras de 1967 para a Palestina", ""]
+      ]},
+      {"k": "migration", "v": [
+        ["Contra a \"fortaleza Europa\"", ""],
+        ["Acabar com a Frontex", ""],
+        ["Contra processo de asilo em países externos", ""],
+        ["Canais de migração seguros", ""],
+        ["Proteger migrantes", ""],
+        ["+ solidariedade da UE", ""],
+        ["Promover a paz globalmente", ""],
+        ["Parar a exploração de países externos", ""]
+      ]},
+      {"k": "climate", "v": [
+        ["Cortar emissões em 65% até 2030", ""],
+        ["Neutralidade climática 2035", ""],
+        ["Tutela pública da água e energia", ""],
+        ["Contra a privatização", ""],
+        ["Controlar a produção de carros", ""],
+        ["Proibir jatos privados", ""],
+        ["Prioritizar a ferrovia", ""],
+        ["Expandir o transporte público", ""]
+      ]},
+      {"k": "economy", "v": [
+        ["Investir em trabalhos \"verdes\"", ""],
+        ["Direcionar gastos militares para iniciativas sociais", ""],
+        ["Lucros das energéticas para o público", ""],
+        ["Fim dos paraísos fiscais", ""],
+        ["Empréstimos favorávies para projetos \"verdes\"", ""],
+        ["Rendimento básico", ""],
+        ["Fim dos estágios não remunerados", ""],
+        ["Tratamento igual para os trabalhadores migrantes", ""],
+        ["Reduzir o horário de trabalho", ""]
+      ]},
+      {"k": "social", "v": [
+        ["Habitação acessível e de qualidade", ""],
+        ["Limite nas rendas", ""],
+        ["Impedir despejos injustificados", ""],
+        ["Alojamento estudantil", ""],
+        ["Contra a privatização da educação", ""],
+        ["7% PIB UE para educação e ciência", ""],
+        ["Fim das propinas", ""],
+        ["2% PIB UE para a cultura", ""],
+        ["Igualdade no trabalho e salarial para as mulheres", ""]
+      ]},
+      {"k": "eu", "v": [
+        ["Pro reforma dos tratados", ""],
+        ["Valores anti-fascistas nos tratados", ""],
+        ["Parlamento pode propor leis", ""],
+        ["Parlamento seleciona a comissão", ""],
+        ["Parlamento controla orçamento", ""],
+        ["Parlamento controla BCE", ""],
+        ["Manter o poder de veto", ""],
+        ["Reunificação da Irlanda", ""],
+        ["Direitos Humanos como requisito de adesão à UE ", ""]
+      ]}
     ]
   },
   {
@@ -61,12 +124,12 @@
     "label": "Greens/EFA",
     "img": "greensefa.svg",
     "policies": [
-      {"k": "defense", "v": ""},
-      {"k": "migration", "v": ""},
-      {"k": "climate", "v": ""},
-      {"k": "economy", "v": ""},
-      {"k": "social", "v": ""},
-      {"k": "eu", "v": ""}
+      {"k": "defense", "v": []},
+      {"k": "migration", "v": []},
+      {"k": "climate", "v": []},
+      {"k": "economy", "v": []},
+      {"k": "social", "v": []},
+      {"k": "eu", "v": []}
     ]
   },
   {
@@ -75,12 +138,12 @@
     "label": "Renew",
     "img": "renew.svg",
     "policies": [
-      {"k": "defense", "v": ""},
-      {"k": "migration", "v": ""},
-      {"k": "climate", "v": ""},
-      {"k": "economy", "v": ""},
-      {"k": "social", "v": ""},
-      {"k": "eu", "v": ""}
+      {"k": "defense", "v": []},
+      {"k": "migration", "v": []},
+      {"k": "climate", "v": []},
+      {"k": "economy", "v": []},
+      {"k": "social", "v": []},
+      {"k": "eu", "v": []}
     ]
   },
   {
@@ -89,12 +152,75 @@
     "label": "S&D",
     "img": "sd.svg",
     "policies": [
-      {"k": "defense", "v": "Pro Ukraine\nEU defense policy\nPro NATO\nJoint procurement for defense\nEnhance cybersecurity\nProtect critical infrastructure\nEnd Cyprus conflict\nPeace conference for Gaza\nTwo-state solution"},
-      {"k": "migration", "v": "Strengthen EU borders\nCombat smugglers\nMigrant rights & safety\nProtect migrant children\nLegal support for migrants\nRespectful migration procedures\nPartnership with 3rd countries\nNo asylum process in 3rd countries\nSupport rescue missions"},
-      {"k": "climate", "v": "A green social deal\nClimate neutral 2050\nFocus on renewable energy\nFight plastic & chemical pollution\nFinancial help to farmers\nReduce pesticides\nProtect biodiversity\nStabilize energy prices\nModernize energy infrastructure\nEU energy independence"},
-      {"k": "economy", "v": "No austerity & social regression\n\"Made in EU\" strategy\nEU investment capacity\nBigger EU budget\nInvest in green transition\nInvest in digital transition\nRaw material independence\nTechnology independence\nProtect workers from crises\nRegulate financial markets"},
-      {"k": "social", "v": "Quality jobs\nCombat in-work poverty\nRegulate AI\nZero deaths at work\nReduce work time\nSupport unions\nAffordable housing\nEU health union\nMental health strategy\nFair drug pricing\nPolluter tax\nStop tax havens\nFeminism\nLGBTI rights\nFree education & student housing"},
-      {"k": "eu", "v": "Pro treaty change\n Pro enlargement\nEmpower parliament\nEmpower commission\nRemove veto for tax\nNo accession for Turkey\nVery pro EU"}
+      {"k": "defense", "v": [
+        ["Pro Ucrânia", ""],
+        ["Politica de defesa Europeia", ""],
+        ["Pro NATO", ""],
+        ["Compras conjuntas para defesa", ""],
+        ["Aumentar a cibersegurança", ""],
+        ["Proteger infraestrutura crítica", ""],
+        ["Terminar o conflito do Chipre", ""],
+        ["Conferência de paz para Gaza", ""],
+        ["Solução de 2 estados", ""]
+      ]},
+      {"k": "migration", "v": [
+        ["Fortalecer as fronteiras", ""],
+        ["Combater o tráfico", ""],
+        ["Contra processo de asilo em países externos", ""],
+        ["Direitos e segurança dos migrantes", ""],
+        ["Proteger crianças migrantes", ""],
+        ["Apoio legal para migrantes", ""],
+        ["Parcerias com países externos", ""],
+        ["Contra processo de asilo em países externos", ""],
+        ["Apoiar missões de salvamento", ""]
+      ]},
+      {"k": "climate", "v": [
+        ["Pacto verde social", ""],
+        ["Neutralidade carbónica 2050", ""],
+        ["Foco na energia renovável", ""],
+        ["Combater poluição plástica e química", ""],
+        ["Apoio financeiro aos agricultores", ""],
+        ["Reduzir pesticidas", ""],
+        ["Proteger a biodiversidade", ""],
+        ["Estabilizar o preço da energia", ""],
+        ["Modernizar a infraestrutura energética", ""],
+        ["Independência energética da UE", ""]
+      ]},
+      {"k": "economy", "v": [
+        ["Contra austeridade e regressão social", ""],
+        ["Estratégia \"Made in UE\"", ""],
+        ["Capacidade de investimento europeu", ""],
+        ["Aumento do orçamento da UE", ""],
+        ["Investir na transição \"verde\"", ""],
+        ["Investir na transição digital", ""],
+        ["Independência em matérias primas", ""],
+        ["Independência tecnológica", ""],
+        ["Proteger os trabalhadores de crises", ""],
+        ["Regular os mercados financeiros", ""]
+      ]},
+      {"k": "social", "v": [
+        ["Combater a pobreza em situação de trabalho", ""],
+        ["Regular IA", ""],
+        ["Zero mortes no trabalho", ""],
+        ["Reduzir horário de trabalho", ""],
+        ["Apoiar sindicatos", ""],
+        ["Habitação acessível", ""],
+        ["União de saúde UE", ""],
+        ["Estratégia de saúde mental", ""],
+        ["Preço justo dos medicamentos", ""],
+        ["Feminismo", ""],
+        ["Direitos LGBTI", ""],
+        ["Educação e alojamento estudantil gratuitos", ""]
+      ]},
+      {"k": "eu", "v": [
+        ["Pro reforma dos tratados", ""],
+        ["Pro crescimento da UE", ""],
+        ["Aumentar poderes do parlamento", ""],
+        ["Aumentar poderes da parlamento", ""],
+        ["Remover veto para matérias de fiscalidade", ""],
+        ["Contra adesão da Turquia", ""],
+        ["Pro UE", ""]
+      ]}
     ]
   }
 ]
