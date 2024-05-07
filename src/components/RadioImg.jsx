@@ -3,7 +3,8 @@ import React, { Component } from 'react';
 // Adapted from https://github.com/newbreedofgeek/react-radioimg
 
 // Elem props are
-// target_class: special css class to identify toggle elements
+// groups: special case to toggle EU groups as well...
+// targetClass: special css class to identify toggle elements
 // margin: tailwind margin class (default = mx-2)
 // size: tailwind size class (default = size-16)
 // options: described below
@@ -24,7 +25,7 @@ export default class RadioImg extends Component {
             options: props.options
         };
 
-        this.target_class = props.target_class;
+        this.targetClass = props.targetClass;
         this.click = this._click.bind(this);
     }
 
@@ -34,35 +35,31 @@ export default class RadioImg extends Component {
         if (this.value !== e.target.dataset.val) {
             this.value = e.target.dataset.val;
             this.eu_group = e.target.dataset.eu_group;
-        }
-        else {
-            this.value = ''; // Reset value so users can deselect
-            this.eu_group = '';
-        }
 
-        // ON CHANGE FUNC
+            // No longer allow users to deselect
+            // Decision made in sequence to appearing with a starting selection (wip)
 
-        // Standard case
-        let elements = document.getElementsByClassName(this.target_class);
-        Array.from(elements).forEach(elem => {
-            // Hide all whose data-radio does not match this element's val
-            let hide = (elem.dataset.radio !== this.value)
-            elem.classList.toggle('hidden', hide);
-        });
-
-
-        // Special EU group case
-        if (this.props.groups) {
-            console.log('this.props.groups');
-            let groups = document.getElementsByClassName('groupcard');
-            Array.from(groups).forEach(group => {
-                // Hide all whose data-radio is not included in the eu_group ref
-                let hide = !this.eu_group.includes(group.dataset.radio)
-                group.classList.toggle('hidden', hide);
+            // ON CHANGE FUNC
+            // Standard case
+            let elements = document.getElementsByClassName(this.targetClass);
+            Array.from(elements).forEach(elem => {
+                // Hide all whose data-radio does not match this element's val
+                let hide = (elem.dataset.radio !== this.value)
+                elem.classList.toggle('hidden', hide);
             });
-        }
 
-        this.forceUpdate();
+
+            // Special EU group case
+            if (this.props.groups) {
+                let groups = document.getElementsByClassName('groupcard');
+                Array.from(groups).forEach(group => {
+                    // Hide all whose data-radio is not included in the eu_group ref
+                    let hide = !this.eu_group.includes(group.dataset.radio)
+                    group.classList.toggle('hidden', hide);
+                });
+            }
+            this.forceUpdate();
+        }
     }
 
     render() {
