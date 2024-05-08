@@ -20,17 +20,67 @@
     "img": "epp.svg",
     "policies": [
       {"k": "defense", "v": [
-        ["0.25% PIB em apoio militar à Ucrânia", "https://www.eppgroup.eu/newsroom/give-0-25-of-gdp-for-ukraine-s-victory"],
+        ["Fortemente pró Ucrânia", "https://www.eppgroup.eu/newsroom/epp-group-position-paper-on-ukraine"],
+        ["0.25% PIB apoio militar à Ucrânia", "https://www.eppgroup.eu/newsroom/give-0-25-of-gdp-for-ukraine-s-victory"],
         ["Confiscar bens russos", "https://www.eppgroup.eu/newsroom/make-russia-foot-the-entire-bill-for-ukraine-s-devastation"],
-        ["Política de defesa comum", ""],
+        ["Fortemente pró NATO", "https://www.eppgroup.eu/what-we-stand-for/our-impact/a-stronger-europe-in-the-world"],
+        ["Política de defesa comum", "https://www.eppgroup.eu/what-we-stand-for/our-priorities/security-a-european-security-pact"],
         ["Investir na defesa", ""],
-        ["Futura união militar", "https://www.eppgroup.eu/newsroom/position-paper-on-a-european-defence-union"]
+        ["Forças armadas da UE"],
+        ["União militar e comissário de defesa", "https://www.eppgroup.eu/newsroom/position-paper-on-a-european-defence-union"],
+        ["Criar uma DARPA europeia"],
+        ["Brigada de cibersegurança"],
+        ["Conselho de segurança europeu"],
+        ["Escudo conjunto de defesa UE-NATO"]
       ]},
-      {"k": "migration", "v": []},
-      {"k": "climate", "v": []},
-      {"k": "economy", "v":  []},
-      {"k": "social", "v":  []},
-      {"k": "eu", "v":  []}
+      {"k": "migration", "v": [
+        ["Expansão da FRONTEX", ""],
+        ["Acordos com países externos", ""],
+        ["Migração legal, acessível, e limitada", "https://www.eppgroup.eu/newsroom/epp-group-position-paper-on-asylum-and-migration_42fa8ed"],
+        ["Política de asilo comum"],
+        ["Prioritizar acesso dos cidadãos da UE ao trabalho"],
+        ["Fortalecer o sistema comum de asilo europeu"]
+      ]},
+      {"k": "climate", "v": [
+        ["Segurança energética"],
+        ["Investimento em energias renováveils"],
+        ["Investimento em eficiência energética"],
+        ["Investimento em infra-estrutura energética transfronteiriça"],
+        ["Contra proibição de carros com motores de combustão"],
+        ["Reforço do sistema de troca de emissões"],
+        ["Aumentar % de combustíveis sustentáveis para aviação"]
+      ]},
+      {"k": "economy", "v":  [
+        ["\"Social market economy\""],
+        ["Disciplina fiscal", ""],
+        ["Foco na estabilidade de preços"],
+        ["Política agricola forte"],
+        ["Maior flexibilidade orçamental para a UE"],
+        ["Reduzir a carga burocrática 33% em todos os setores"],
+        ["Ambiente facilitador do empreendedorismo"],
+        ["Proteger infra-estrutura crítica", ""],
+        ["Proteger indústrias estratégicas"],
+        ["4% PIB para I&D"],
+        ["Independência em matérias primas", ""],
+        ["Instituto europeu para investigação IA"],
+        ["Mercado único digital justo"]
+      ]},
+      {"k": "social", "v":  [
+        ["Empregos de qualidade"],
+        ["Uniformizar a criminalização de violência contra mulheres", ""],
+        ["Oportunidades para mulheres empreendedoras"],
+        ["União de saúde", "https://www.eppgroup.eu/newsroom/epp-group-position-paper-on-a-european-union-for-health"],
+        ["Erradicar pobreza extrema no mundo até 2030"],
+        ["Plano europeu de saúde mental"],
+        ["Iniciativa demográfica"]
+      ]},
+      {"k": "eu", "v":  [
+        ["Pró UE"],
+        ["Alargamento da UE",""],
+        ["Ministro europeu dos negócios estrangeiros"],
+        ["Fortalecer a segurança interna", "https://www.eppgroup.eu/newsroom/epp-group-position-paper-on-how-to-combat-organised-crime-in-the-european-union"],
+        ["Fortalecer a Europol","https://www.eppgroup.eu/newsroom/europe-s-future-unified-front-against-terrorism-crime"]
+      ]}
     ]
   },
   {
@@ -39,12 +89,41 @@
     "label": "ID Group",
     "img": "id.svg",
     "policies": [
-      {"k": "defense", "v": []},
-      {"k": "migration", "v": []},
-      {"k": "climate", "v": []},
-      {"k": "economy", "v": []},
-      {"k": "social", "v": []},
-      {"k": "eu", "v": []}
+      {"k": "defense", "v": [
+        ["Ambiguidade sobre a Ucrânia", "https://www.idgroup.eu/press_release_ukraine", "https://www.euronews.com/my-europe/2022/10/24/dutch-mep-quits-far-right-group-after-suspension-over-go-putin-stance", "https://www.aljazeera.com/news/2022/11/25/russia-labelled-as-sponsors-of-terrorism-how-did-europe-vote"],
+        ["LePen e AfD pró anexação da Crimeia", "https://www.euractiv.com/section/politics/news/le-pen-insists-crimea-is-russian/", "https://edition.cnn.com/videos/world/2017/02/01/france-intv-amanpour-marine-le-pen-b.cnn", "https://www.occrp.org/en/investigations/kremlin-linked-group-arranged-payments-to-european-politicians-to-support-russias-annexation-of-crimea"],
+        ["Historial de discurso pró Rússia", "https://correctiv.org/en/latest-stories/2023/10/19/alternative-for-russia-how-the-afd-is-systematically-turning-towards-russia/", "https://www.theguardian.com/world/2022/sep/20/far-right-german-politicians-accused-of-pro-putin-propaganda-trip"],
+        ["Historial de ligações financeiras à Russia", "https://www.bbc.com/news/world-europe-39478066", "https://www.spiegel.de/politik/deutschland/krim-reise-afd-politiker-gibt-sponsoring-aus-moskau-zu-a-4a6c1b1a-e82d-4268-a658-fb78a3fc4ed8"],
+        ["Contra sanções à Rússia"]
+      ]},
+      {"k": "migration", "v": [
+        ["Fortalecer as fronteiras", "https://www.idgroup.eu/borders"],
+        ["Foco da UE na repatriação de imigrantes"],
+        ["Combater imigração ilegal"]
+      ]},
+      {"k": "climate", "v": [
+        ["Contra o pacto verde europeu", "https://www.idgroup.eu/green_deal_zanni"],
+        ["Contra a eficiência energética dos edifícios", "https://www.idgroup.eu/green_crusade_houseowners"],
+        ["Contra a \"ideologia verde\"", "https://www.idgroup.eu/air_quality"]
+      ]},
+      {"k": "economy", "v": [
+        ["Desregulamentação e desburocratização", "https://www.idgroup.eu/less_bureaucracy_for_stronger_business"],
+        ["Contra união orçamental", "https://www.idgroup.eu/budget"],
+        ["Contra união fiscal"],
+        ["Criação de trabalho"],
+        ["Crescimento económico"]
+      ]},
+      {"k": "social", "v": [
+        ["..."]
+      ]},
+      {"k": "eu", "v": [
+        ["Contra maior integração da UE"],
+        ["Defesa das identidades nacionais", "https://www.idgroup.eu/identity"],
+        ["Defesa da herança cristã da UE"],
+        ["Recuperação de soberania nacional", "https://www.idgroup.eu/sovereignty"],
+        ["Contra a \"islamização\" da europa", ""],
+        ["Contra adesão da Turquia", "https://www.idgroup.eu/turkey_eu"]
+      ]}
     ]
   },
   {
@@ -106,7 +185,7 @@
         ["Igualdade no trabalho e salarial para as mulheres", ""]
       ]},
       {"k": "eu", "v": [
-        ["Pro reforma dos tratados", ""],
+        ["Pró reforma dos tratados", ""],
         ["Valores anti-fascistas nos tratados", ""],
         ["Parlamento pode propor leis", ""],
         ["Parlamento seleciona a comissão", ""],
@@ -124,12 +203,59 @@
     "label": "Greens/EFA",
     "img": "greensefa.svg",
     "policies": [
-      {"k": "defense", "v": []},
-      {"k": "migration", "v": []},
-      {"k": "climate", "v": []},
-      {"k": "economy", "v": []},
-      {"k": "social", "v": []},
-      {"k": "eu", "v": []}
+      {"k": "defense", "v": [
+        ["Apoio à Ucrânia"],
+        ["Embargo total aos combustíveis russos"],
+        ["Cessar-fogo em Gaza"],
+        ["UE como projeto de paz e segurança"],
+        ["Controlo de tecnologia estratégica"],
+        ["Assumir a promoção da paz no médio-oriente"]
+      ]},
+      {"k": "migration", "v": [
+        ["Contra o foco excessivo na política migratória"],
+        ["Missão europeia de busca e salvamento no mediterrâneo"],
+        ["Humanidade e solidarieade no acolhimento de migrantes"]
+      ]},
+      {"k": "climate", "v": [
+        ["UE poluição zero", "https://greens-2024.eu/topics/#save_our_planet"],
+        ["100% energia renovável 2040"],
+        ["Redirecionar fundos da agrigultura industrial para a sustentável"],
+        ["Expansão dos transportes públicos"],
+        ["Fim faseado dos subsídios aos conbustíveis fósseis a partir de 2025"],
+        ["Investir no isolamento das habitações"],
+        ["Independência energética"]
+      ]},
+      {"k": "economy", "v": [
+        ["Fim dos paraísos fiscais"],
+        ["Imposto mínimo sobre ganhos capitais"],
+        ["Imposto europeu sobre a riqueza"],
+        ["Proibir estágios não remunerados"],
+        ["Estatuto de trabalhador trabalhadores de aplicações tipo Uber"],
+        ["Apoiar os sindicatos"],
+        ["Apostar em tecnologia sustentável"]
+      ]},
+      {"k": "social", "v": [
+        ["Investir em habitação acessível"],
+        ["Apoiar controlos de rendas"],
+        ["Criar seguros de desemprego permanentes"],
+        ["Rendimento básico europeu"],
+        ["Contra todo o tipo de discriminação"],
+        ["Contra a criminalização de ativistas e associações"],
+        ["Promover a auto-determinação e autonomia corporal"],
+        ["Garantir acesso legal a reconhecimento de genero"],
+        ["Garantir direito e acesso seguro à IVG"],
+        ["Reconhecer direitos sexuais e reprodutores como direitos fundamentais"],
+        ["Acabar com a violência contra mulheres e aumentar apoio às vítimas"],
+        ["Garantir paridade de remuneração"],
+        ["Total paridade de genero no emprego e na vida"]
+      ]},
+      {"k": "eu", "v": [
+        ["Contra o veto"],
+        ["Defender os direitos humanos"],
+        ["Defender os valores democráticos"],
+        ["Luta pela transparência e integridade das instituições"],
+        ["Garantir o uso dos fundos públicos para o benefício dos cidadãos"]
+      ]}
     ]
   },
   {
@@ -138,12 +264,58 @@
     "label": "Renew",
     "img": "renew.svg",
     "policies": [
-      {"k": "defense", "v": []},
-      {"k": "migration", "v": []},
-      {"k": "climate", "v": []},
-      {"k": "economy", "v": []},
-      {"k": "social", "v": []},
-      {"k": "eu", "v": []}
+      {"k": "defense", "v": [
+        ["Pró Ucrânia"],
+        ["Fortalecer a indústria militar da UE", "https://www.reneweuropegroup.eu/policies/2024-03-27/european-defence"],
+        ["Aumentar a contratação conjunta"],
+        ["Reforçar a defesa dos estados fronteira"],
+        ["Reforçar sanções"],
+        ["Maioria qualificada para decisões de política externa"],
+        ["Fortalecer inovação e soberania tecnológica"],
+        ["Forte cooperação UE-NATO"]
+      ]},
+      {"k": "migration", "v": [
+        ["Política comum de migração e asilo"],
+        ["Fortalecer as fronteiras da UE"],
+        ["Proibir esquemas de vistos gold"]
+      ]},
+      {"k": "climate", "v": [
+        ["Cumprir a meta 1.5ºC do acordo de Paris"],
+        ["Crescimento económico baseado em \"tecnologia verde\""],
+        ["Redução de 55% nas emissões até 2030"],
+        ["Net-zero até 2050"],
+        ["Aumentar a proteção de biodiversidade"],
+        ["Aumentar a qualidade do ar"],
+        ["Foco na eficiência energética"],
+        ["Reduzier emissões dos transportes 60% até 2050"]
+      ]},
+      {"k": "economy", "v": [
+        ["Comércio multilateral aberto e justo", "https://www.reneweuropegroup.eu/policies/2023-06-29/trade-position-paper"],
+        ["Estudar a introdução de um \"euro digital\"", "https://www.reneweuropegroup.eu/policies/2023-06-29/digital-euro-position-paper"],
+        ["Apoiar as PMEs a nível europeu"],
+        ["3% PIB para I&D até 2027"],
+        ["Unificar os mercados de capital", "https://www.reneweuropegroup.eu/policies/2024-03-08/regaining-our-competitive-edge"],
+        ["Reforma da política agrícola comum", "https://app.box.com/s/cuaz0v8d623aak5k3i58fqqogduuuqcy"],
+        ["Foco na inovação e desenvolvimento tecnológico"],
+        ["Fortalecer e expandir a união monetária"],
+        ["Mercados abertos e livres"],
+        ["Aumentar a mobilidade no mercado de trabalho"]
+      ]},
+      {"k": "social", "v": [
+        ["Direito à educação acessível e de qualidade"],
+        ["Triplicar o orçamento do Erasmus"],
+        ["Direitos das mulheres"],
+        ["Direitos LGBTI+"],
+        ["Luta contra a pobreza e discriminação"]
+      ]},
+      {"k": "eu", "v": [
+        ["Maior integração"],
+        ["Pró reforma dos tratados"],
+        ["Promoção de valores europeus"],
+        ["Mais poder para o parlamento"],
+        ["Forte política europeia regional e de coesão"],
+        ["Política externa da UE forte"]
+      ]}
     ]
   },
   {
@@ -153,12 +325,12 @@
     "img": "sd.svg",
     "policies": [
       {"k": "defense", "v": [
-        ["Pro Ucrânia", ""],
+        ["Pró Ucrânia", ""],
         ["Politica de defesa Europeia", ""],
-        ["Pro NATO", ""],
+        ["Pró NATO", ""],
         ["Compras conjuntas para defesa", ""],
         ["Aumentar a cibersegurança", ""],
-        ["Proteger infraestrutura crítica", ""],
+        ["Proteger infra-estrutura crítica", ""],
         ["Terminar o conflito do Chipre", ""],
         ["Conferência de paz para Gaza", ""],
         ["Solução de 2 estados", ""]
@@ -183,7 +355,7 @@
         ["Reduzir pesticidas", ""],
         ["Proteger a biodiversidade", ""],
         ["Estabilizar o preço da energia", ""],
-        ["Modernizar a infraestrutura energética", ""],
+        ["Modernizar a infra-estrutura energética", ""],
         ["Independência energética da UE", ""]
       ]},
       {"k": "economy", "v": [
@@ -213,13 +385,13 @@
         ["Educação e alojamento estudantil gratuitos", ""]
       ]},
       {"k": "eu", "v": [
-        ["Pro reforma dos tratados", ""],
-        ["Pro crescimento da UE", ""],
+        ["Pró reforma dos tratados", ""],
+        ["Pró crescimento da UE", ""],
         ["Aumentar poderes do parlamento", ""],
         ["Aumentar poderes da parlamento", ""],
         ["Remover veto para matérias de fiscalidade", ""],
         ["Contra adesão da Turquia", ""],
-        ["Pro UE", ""]
+        ["Pró UE", ""]
       ]}
     ]
   }
