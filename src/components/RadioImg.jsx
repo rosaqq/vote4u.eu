@@ -37,6 +37,8 @@ export default class RadioImg extends Component {
 
             // No longer allow users to deselect
             // Decision made in sequence to appearing with a starting selection (wip)
+            // TODO: Implement radio pre-selection
+            // FIXME: currently broken due to all targets starting hidden & component not updating them on initial render
 
             // ON CHANGE FUNC
             // Standard case

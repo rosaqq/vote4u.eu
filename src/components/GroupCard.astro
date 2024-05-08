@@ -73,9 +73,10 @@ const options =  [
             <ul class={`group_policy_${slug} text-sm text-slate-300 list-disc list-inside hidden`} data-radio={p.k}>
                 {p.v.map((policyItem) => (
                     <li>
-                        {policyItem[0]}&nbsp;{policyItem.slice(1).map((ref, i) => (
+                        {policyItem[0]}{policyItem.slice(1).map((ref, i) => (
                             // Note slice returns empty array if length < slice value, so we don't need to check ref exists
-                            <a class="text-sky-300" href={ref} target="_blank"><sup>{i+1}</sup>&nbsp;</a>
+                            // "ref &&" in case pos 1 of the array exists but = an empty str
+                            (ref && <a class="text-sky-300" href={ref} target="_blank"><sup>{i+1}</sup>&nbsp;</a>)
                         ))}
                     </li>
                 ))}
