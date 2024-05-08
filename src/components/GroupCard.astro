@@ -71,8 +71,13 @@ const options =  [
 
         {policies.map((p: any) => (
             <ul class={`group_policy_${slug} text-sm text-slate-300 list-disc list-inside hidden`} data-radio={p.k}>
-                {p.v.map((arr) => (
-                    <li>{arr[0]}{arr[1] && <a href={arr[1]} target="_blank" title="Fonte">&nbsp;🔗</a>}</li>
+                {p.v.map((policyItem) => (
+                    <li>
+                        {policyItem[0]}&nbsp;{policyItem.slice(1).map((ref, i) => (
+                            // Note slice returns empty array if length < slice value, so we don't need to check ref exists
+                            <a class="text-sky-300" href={ref} target="_blank"><sup>{i+1}</sup>&nbsp;</a>
+                        ))}
+                    </li>
                 ))}
             </ul>
         ))}
