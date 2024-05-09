@@ -1,0 +1,5 @@
+.idea
+.DS_Store
+aa_testdock
+node_modules
+dist
