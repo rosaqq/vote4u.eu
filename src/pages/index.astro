@@ -97,13 +97,11 @@ let options = [
 		</div>
 
 		<!-- Candidate lists -->
-		<div class="relative z-10 rounded-xl shadow-xl ring-1 ring-slate-900/5 divide-y my-auto xl:mt-18 bg-slate-800 divide-slate-200/5 highlight-white/10">
-			<List>
-				{users.map((user) => (
-					<ListItem user={user} />
-				))}
-			</List>
-		</div>
+		<List>
+			{users.map((user) => (
+				<ListItem user={user} />
+			))}
+		</List>
 	</main>
 </Layout>
 
