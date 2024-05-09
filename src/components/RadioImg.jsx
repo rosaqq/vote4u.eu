@@ -67,7 +67,7 @@ export default class RadioImg extends Component {
         return (
             this.state.options.map((item, index) => {
                 let cls_selected = "outline outline-3 outline-offset-[-1px] outline-cyan-400";
-                let clsToUse = `flex-none ${this.props.margin} rounded-full ${this.props.size} bg-${item.val} ${(this.value === item.val) ? cls_selected : "outline-none"}`;
+                let clsToUse = `flex-none ${this.props.margin} rounded-full ${this.props.size} ${(this.value === item.val) ? cls_selected : "outline-none"}`;
 
                 return <button
                     key={index}

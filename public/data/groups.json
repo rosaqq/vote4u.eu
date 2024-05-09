@@ -3,6 +3,8 @@
     "slug": "ecr",
     "name": "European Conservatives and Reformists Group",
     "label": "ECR",
+    "url": "https://ecrgroup.eu/",
+    "manifesto": "",
     "img": "ecr.svg",
     "policies": [
       {"k": "defense", "v": []},
@@ -17,6 +19,8 @@
     "slug": "epp",
     "name": "European People's Party Group",
     "label": "EPP Group",
+    "url": "https://www.eppgroup.eu/",
+    "manifesto": "https://www.epp.eu/papers/epp-manifesto-2024",
     "img": "epp.svg",
     "policies": [
       {"k": "defense", "v": [
@@ -87,6 +91,8 @@
     "slug": "id",
     "name": "Identity and Democracy Group",
     "label": "ID Group",
+    "url": "https://www.idgroup.eu/",
+    "manifesto": "",
     "img": "id.svg",
     "policies": [
       {"k": "defense", "v": [
@@ -130,6 +136,8 @@
     "slug": "left",
     "name": "The Left in the European Parliament",
     "label": "The Left",
+    "url": "https://left.eu/",
+    "manifesto": "",
     "img": "left.svg",
     "policies": [
       {"k": "defense", "v": [
@@ -201,6 +209,8 @@
     "slug": "greens",
     "name": "The Greens/European Free Alliance",
     "label": "Greens/EFA",
+    "url": "https://www.greens-efa.eu/",
+    "manifesto": "https://greens-2024.eu/",
     "img": "greensefa.svg",
     "policies": [
       {"k": "defense", "v": [
@@ -262,6 +272,8 @@
     "slug": "renew",
     "name": "Renew Europe",
     "label": "Renew",
+    "url": "https://www.reneweuropegroup.eu/",
+    "manifesto": "",
     "img": "renew.svg",
     "policies": [
       {"k": "defense", "v": [
@@ -322,6 +334,8 @@
     "slug": "sd",
     "name": "Progressive Alliance of Socialists and Democrats",
     "label": "S&D",
+    "url": "https://socialistsanddemocrats.eu/",
+    "manifesto": "",
     "img": "sd.svg",
     "policies": [
       {"k": "defense", "v": [

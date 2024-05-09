@@ -3,7 +3,7 @@
 import RadioImg from '../components/RadioImg';
 
 const {group} = Astro.props;
-const {slug, name, label, img, policies} = group;
+const {slug, name, label, url, manifesto, img, policies} = group;
 
 const options =  [
     {
@@ -44,21 +44,27 @@ const options =  [
     }
 ];
 ---
-<div class="groupcard hidden flex flex-col items-center font-sans outline-none" data-radio={slug}>
+<div class="groupcard hidden flex flex-col items-center font-sans outline-none px-4" data-radio={slug}>
     <div class="w-48 h-24">
         <img src={`/img/groups/${img}`} alt="" class="w-full h-full object-contain" />
     </div>
 
+    <div class="w-52 my-2 flex justify-evenly">
+        {url &&
+            <a class="flex items-baseline justify-center" href={url} target="_blank">
+                <i class="bi bi-link-45deg text-base" /><span class="text-base">Web</span>
+            </a>
+        }
+        {manifesto &&
+            <a class="flex items-baseline justify-center" href={manifesto} target="_blank">
+                <i class="bi bi-link-45deg text-base" /><span class="text-base">Manifesto 2024</span>
+            </a>
+        }
+    </div>
     
-    <div class="flex-auto p-4">
-        <!--<div class="flex flex-wrap">-->
-        <!--    <h1 class="flex-auto text-lg font-semibold text-slate-100">-->
-        <!--        {name}-->
-        <!--    </h1>-->
-        <!--</div>-->
-
+    <div class="flex-auto pb-4">
         <!-- Radio -->
-        <div class="flex items-baseline justify-center mb-2 pb-4 border-b border-slate-200">
+        <div class="flex items-baseline justify-center mb-1 pb-2 border-b border-slate-200">
             <div class="space-x-2 flex text-sm">
                 <RadioImg options={options} size="size-8" margin="mx-0.5" targetClass={`group_policy_${slug}`} client:load />
             </div>
