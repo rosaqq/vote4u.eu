@@ -24,6 +24,11 @@ export default class RadioImg extends Component {
             options: props.options
         };
 
+        if (props.defaultValue)
+        {
+            this.value = props.defaultValue;
+        }
+
         this.targetClass = props.targetClass;
         this.click = this._click.bind(this);
     }
@@ -58,6 +63,9 @@ export default class RadioImg extends Component {
                     let hide = !this.eu_group.includes(group.dataset.radio)
                     group.classList.toggle('hidden', hide);
                 });
+
+                // Hide tip on first click
+                document.getElementById('initialTip').classList.add('hidden');
             }
             this.forceUpdate();
         }
