@@ -278,28 +278,39 @@
     "policies": [
       {"k": "defense", "v": [
         ["Pró Ucrânia"],
+        ["Dar prioridade à defesa"],
         ["Fortalecer a indústria militar da UE", "https://www.reneweuropegroup.eu/policies/2024-03-27/european-defence"],
         ["Aumentar a contratação conjunta"],
-        ["Reforçar a defesa dos estados fronteira"],
+        ["União de Defesa"],
+        ["Academia Militar Europeia"],
         ["Reforçar sanções"],
-        ["Maioria qualificada para decisões de política externa"],
         ["Fortalecer inovação e soberania tecnológica"],
         ["Forte cooperação UE-NATO"]
       ]},
       {"k": "migration", "v": [
         ["Política comum de migração e asilo"],
+        ["Processo de asilo em países externos"],
+        ["Acordos com países externos"],
+        ["Migração com respeito pela dignidade"],
         ["Fortalecer as fronteiras da UE"],
-        ["Proibir esquemas de vistos gold"]
+        ["Combater o tráfico humano"],
+        ["Apoiar missões de busca e salvamento"],
+        ["Reforma da FRONTEX com foco nos direitos humanos"],
+        ["Migração económica legal"],
+        ["Migrantes para combater a falta de mão de obra"],
+        ["Acesso Schengen Bulgária e Roménia"]
       ]},
       {"k": "climate", "v": [
-        ["Cumprir a meta 1.5ºC do acordo de Paris"],
-        ["Crescimento económico baseado em \"tecnologia verde\""],
         ["Redução de 55% nas emissões até 2030"],
         ["Net-zero até 2050"],
-        ["Aumentar a proteção de biodiversidade"],
-        ["Aumentar a qualidade do ar"],
-        ["Foco na eficiência energética"],
-        ["Reduzier emissões dos transportes 60% até 2050"]
+        ["Implementar o \"pacto verde\""],
+        ["Autonomia energética estratégica"],
+        ["Investir na energia renovável"],
+        ["Investir na energia nuclear"],
+        ["Reduzir a burocracia para agricultores"],
+        ["Re-avaliar e reduzir a legislação dos agricultores"],
+        ["Assitência financeira para agricultores"],
+        ["Reduzir emissões dos transportes 60% até 2050"]
       ]},
       {"k": "economy", "v": [
         ["Comércio multilateral aberto e justo", "https://www.reneweuropegroup.eu/policies/2023-06-29/trade-position-paper"],
@@ -318,15 +329,21 @@
         ["Triplicar o orçamento do Erasmus"],
         ["Direitos das mulheres"],
         ["Direitos LGBTI+"],
-        ["Luta contra a pobreza e discriminação"]
+        ["Pró liberdade de casamento"],
+        ["Pró IVG"]
       ]},
       {"k": "eu", "v": [
-        ["Maior integração"],
+        ["Maior integração UE"],
         ["Pró reforma dos tratados"],
+        ["Remoção do veto"],
+        ["\"Presidente da UE\" eleito pelos cidadãos"],
+        ["Partidos europeus"],
         ["Promoção de valores europeus"],
         ["Mais poder para o parlamento"],
         ["Forte política europeia regional e de coesão"],
-        ["Política externa da UE forte"]
+        ["Política externa da UE forte"],
+        ["Alargamento da UE"],
+        ["Reforma necessária para o alargamento"]
       ]}
     ]
   },
