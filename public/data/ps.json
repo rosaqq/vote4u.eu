@@ -32,7 +32,7 @@
     {
         "pos": 4,
         "first_name": "Bruno",
-        "last_name": "Gon\u00e7alves",
+        "last_name": "Gonçalves",
         "bio": "",
         "list": "PS",
         "local_party": "PS",
@@ -41,7 +41,7 @@
     },
     {
         "pos": 5,
-        "first_name": "Andr\u00e9",
+        "first_name": "André",
         "last_name": "Rodrigues",
         "bio": "",
         "list": "PS",
@@ -71,8 +71,8 @@
     },
     {
         "pos": 8,
-        "first_name": "S\u00e9rgio",
-        "last_name": "Gon\u00e7alves",
+        "first_name": "Sérgio",
+        "last_name": "Gonçalves",
         "bio": "",
         "list": "PS",
         "local_party": "PS",
@@ -92,7 +92,7 @@
     {
         "pos": 10,
         "first_name": "Joana",
-        "last_name": "S\u00e1 Pereira",
+        "last_name": "Sá Pereira",
         "bio": "",
         "list": "PS",
         "local_party": "PS",
@@ -111,8 +111,8 @@
     },
     {
         "pos": 12,
-        "first_name": "In\u00eas",
-        "last_name": "Jo\u00e3o Rodrigues",
+        "first_name": "Inês",
+        "last_name": "João Rodrigues",
         "bio": "",
         "list": "PS",
         "local_party": "PS",
@@ -122,7 +122,7 @@
     {
         "pos": 13,
         "first_name": "Jorge",
-        "last_name": "Manuel Santos Conde",
+        "last_name": "Santos Conde",
         "bio": "",
         "list": "PS",
         "local_party": "PS",
@@ -131,7 +131,7 @@
     },
     {
         "pos": 14,
-        "first_name": "L\u00facia",
+        "first_name": "Lúcia",
         "last_name": "Silva",
         "bio": "",
         "list": "PS",
@@ -141,7 +141,7 @@
     },
     {
         "pos": 15,
-        "first_name": "M\u00e1rio",
+        "first_name": "Mário",
         "last_name": "Balsa",
         "bio": "",
         "list": "PS",
@@ -151,7 +151,7 @@
     },
     {
         "pos": 16,
-        "first_name": "In\u00eas",
+        "first_name": "Inês",
         "last_name": "Pinto",
         "bio": "",
         "list": "PS",
@@ -182,7 +182,7 @@
     {
         "pos": 19,
         "first_name": "Ana",
-        "last_name": "Cl\u00e1udia Moreira",
+        "last_name": "Cláudia Moreira",
         "bio": "",
         "list": "PS",
         "local_party": "PS",
@@ -191,7 +191,7 @@
     },
     {
         "pos": 20,
-        "first_name": "H\u00e9lio",
+        "first_name": "Hélio",
         "last_name": "Fazendeiro",
         "bio": "",
         "list": "PS",
@@ -201,7 +201,7 @@
     },
     {
         "pos": 21,
-        "first_name": "Jo\u00e3o",
+        "first_name": "João",
         "last_name": "Soares",
         "bio": "",
         "list": "PS",

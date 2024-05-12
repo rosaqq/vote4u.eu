@@ -11,8 +11,8 @@
     },
     {
         "pos": 2,
-        "first_name": "Jos\u00e9",
-        "last_name": "Gusm\u00e3o",
+        "first_name": "José",
+        "last_name": "Gusmão",
         "bio": "",
         "list": "BE",
         "local_party": "BE",
@@ -51,7 +51,7 @@
     },
     {
         "pos": 6,
-        "first_name": "Lu\u00eds",
+        "first_name": "Luís",
         "last_name": "Fazendeiro",
         "bio": "",
         "list": "BE",
@@ -81,7 +81,7 @@
     },
     {
         "pos": 9,
-        "first_name": "M\u00f3nica",
+        "first_name": "Mónica",
         "last_name": "Pestana",
         "bio": "",
         "list": "BE",
@@ -111,7 +111,7 @@
     },
     {
         "pos": 12,
-        "first_name": "Andr\u00e9",
+        "first_name": "André",
         "last_name": "Barata",
         "bio": "",
         "list": "BE",
@@ -121,7 +121,7 @@
     },
     {
         "pos": 13,
-        "first_name": "Patr\u00edcia",
+        "first_name": "Patrícia",
         "last_name": "Rico",
         "bio": "",
         "list": "BE",
@@ -131,7 +131,7 @@
     },
     {
         "pos": 14,
-        "first_name": "Jos\u00e9",
+        "first_name": "José",
         "last_name": "Abrantes",
         "bio": "",
         "list": "BE",
@@ -151,8 +151,8 @@
     },
     {
         "pos": 16,
-        "first_name": "M\u00e1rio",
-        "last_name": "Gon\u00e7alves",
+        "first_name": "Mário",
+        "last_name": "Gonçalves",
         "bio": "",
         "list": "BE",
         "local_party": "BE",
@@ -162,7 +162,7 @@
     {
         "pos": 17,
         "first_name": "Suzana",
-        "last_name": "Semi\u00e3o Ruano",
+        "last_name": "Semião Ruano",
         "bio": "",
         "list": "BE",
         "local_party": "Ind",
@@ -182,7 +182,7 @@
     {
         "pos": 19,
         "first_name": "Ana",
-        "last_name": "Dur\u00e3es",
+        "last_name": "Durães",
         "bio": "",
         "list": "BE",
         "local_party": "BE",
@@ -191,7 +191,7 @@
     },
     {
         "pos": 20,
-        "first_name": "F\u00e1tima",
+        "first_name": "Fátima",
         "last_name": "Teixeira",
         "bio": "",
         "list": "BE",
@@ -201,7 +201,7 @@
     },
     {
         "pos": 21,
-        "first_name": "Jos\u00e9",
+        "first_name": "José",
         "last_name": "Manuel Pureza",
         "bio": "",
         "list": "BE",

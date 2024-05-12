@@ -92,6 +92,6 @@ export default class RadioImg extends Component {
 }
 
 RadioImg.defaultProps = {
-    margin: 'm-1 md:mx-2',
-    size: 'size-14 md:size-16'
+    margin: 'm-1 sm:mx-2',
+    size: 'size-14 sm:size-16'
 };
