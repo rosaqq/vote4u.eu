@@ -2,7 +2,7 @@
   {
     "pos": 1,
     "first_name": "Pedro",
-    "last_name": " Fidalgo Marques",
+    "last_name": "Fidalgo Marques",
     "bio": "",
     "list": "PAN",
     "local_party": "PAN",
@@ -12,7 +12,7 @@
   {
     "pos": 2,
     "first_name": "Tânia",
-    "last_name": "Mesquita Madeira",
+    "last_name": "Mesquita",
     "bio": "",
     "list": "PAN",
     "local_party": "PAN",
@@ -43,6 +43,166 @@
     "pos": 5,
     "first_name": "Hugo",
     "last_name": "Alexandre Trindade",
+    "bio": "",
+    "list": "PAN",
+    "local_party": "PAN",
+    "group": "Greens/EFA",
+    "tags": []
+  },
+  {
+    "pos": 6,
+    "first_name": "Sandra",
+    "last_name": "Pimenta",
+    "bio": "",
+    "list": "PAN",
+    "local_party": "PAN",
+    "group": "Greens/EFA",
+    "tags": []
+  },
+  {
+    "pos": 7,
+    "first_name": "Valter",
+    "last_name": "Ramos",
+    "bio": "",
+    "list": "PAN",
+    "local_party": "PAN",
+    "group": "Greens/EFA",
+    "tags": []
+  },
+  {
+    "pos": 8,
+    "first_name": "Sílvia",
+    "last_name": "Marques",
+    "bio": "",
+    "list": "PAN",
+    "local_party": "PAN",
+    "group": "Greens/EFA",
+    "tags": []
+  },
+  {
+    "pos": 9,
+    "first_name": "Ernesto",
+    "last_name": "Morais",
+    "bio": "",
+    "list": "PAN",
+    "local_party": "PAN",
+    "group": "Greens/EFA",
+    "tags": []
+  },
+  {
+    "pos": 10,
+    "first_name": "Beatriz",
+    "last_name": "Salafranca",
+    "bio": "",
+    "list": "PAN",
+    "local_party": "PAN",
+    "group": "Greens/EFA",
+    "tags": []
+  },
+  {
+    "pos": 11,
+    "first_name": "António",
+    "last_name": "Morgado",
+    "bio": "",
+    "list": "PAN",
+    "local_party": "PAN",
+    "group": "Greens/EFA",
+    "tags": []
+  },
+  {
+    "pos": 12,
+    "first_name": "Liliana",
+    "last_name": "Vieira",
+    "bio": "",
+    "list": "PAN",
+    "local_party": "PAN",
+    "group": "Greens/EFA",
+    "tags": []
+  },
+  {
+    "pos": 13,
+    "first_name": "João",
+    "last_name": "Fontes da Costa",
+    "bio": "",
+    "list": "PAN",
+    "local_party": "PAN",
+    "group": "Greens/EFA",
+    "tags": []
+  },
+  {
+    "pos": 14,
+    "first_name": "Isabel",
+    "last_name": "do Carmo",
+    "bio": "",
+    "list": "PAN",
+    "local_party": "PAN",
+    "group": "Greens/EFA",
+    "tags": []
+  },
+  {
+    "pos": 15,
+    "first_name": "Rodrigo",
+    "last_name": "Andrade",
+    "bio": "",
+    "list": "PAN",
+    "local_party": "PAN",
+    "group": "Greens/EFA",
+    "tags": []
+  },
+  {
+    "pos": 16,
+    "first_name": "Marta",
+    "last_name": "Correia",
+    "bio": "",
+    "list": "PAN",
+    "local_party": "PAN",
+    "group": "Greens/EFA",
+    "tags": []
+  },
+  {
+    "pos": 17,
+    "first_name": "Fátima",
+    "last_name": "Cabral",
+    "bio": "",
+    "list": "PAN",
+    "local_party": "PAN",
+    "group": "Greens/EFA",
+    "tags": []
+  },
+  {
+    "pos": 18,
+    "first_name": "Saúl",
+    "last_name": "Rosa",
+    "bio": "",
+    "list": "PAN",
+    "local_party": "PAN",
+    "group": "Greens/EFA",
+    "tags": []
+  },
+  {
+    "pos": 19,
+    "first_name": "Maria",
+    "last_name": "Ribeirinho",
+    "bio": "",
+    "list": "PAN",
+    "local_party": "PAN",
+    "group": "Greens/EFA",
+    "tags": []
+  },
+  {
+    "pos": 20,
+    "first_name": "Vera",
+    "last_name": "Matos",
+    "bio": "",
+    "list": "PAN",
+    "local_party": "PAN",
+    "group": "Greens/EFA",
+    "tags": []
+  },
+  {
+    "pos": 21,
+    "first_name": "Paulo",
+    "last_name": "Vieira de Castro",
     "bio": "",
     "list": "PAN",
     "local_party": "PAN",
