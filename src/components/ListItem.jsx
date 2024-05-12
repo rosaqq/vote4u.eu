@@ -4,7 +4,7 @@ export default function ListItem({ user }) {
     return (
         <article className="hidden profile flex items-start space-x-6 p-6 text-base md:text-xl" data-radio={list.toLowerCase()}>
 
-            <img src={img_src} alt="" className="w-[60px] h-[88px] flex-none rounded-md bg-slate-100"/>
+            <img src={img_src} alt="" className="w-[60px] h-[88px] flex-none rounded-md bg-slate-100 object-cover"/>
 
             <div className="min-w-0 relative flex-auto">
                 <h2 className="font-semibold text-slate-100 truncate">{pos + ". " + first_name + " " + last_name}</h2>
