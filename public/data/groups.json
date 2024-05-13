@@ -47,7 +47,7 @@
       ]},
       {"k": "climate", "v": [
         ["Segurança energética"],
-        ["Investimento em energias renováveils"],
+        ["Investimento em energias renováveis"],
         ["Investimento em eficiência energética"],
         ["Investimento em infra-estrutura energética transfronteiriça"],
         ["Contra proibição de carros com motores de combustão"],
@@ -58,11 +58,11 @@
         ["\"Social market economy\""],
         ["Disciplina fiscal", ""],
         ["Foco na estabilidade de preços"],
-        ["Política agricola forte"],
+        ["Política agrícola forte"],
         ["Maior flexibilidade orçamental para a UE"],
         ["Reduzir a carga burocrática 33% em todos os setores"],
         ["Ambiente facilitador do empreendedorismo"],
-        ["Proteger infra-estrutura crítica", ""],
+        ["Proteger infraestrutura crítica", ""],
         ["Proteger indústrias estratégicas"],
         ["4% PIB para I&D"],
         ["Independência em matérias primas", ""],
@@ -175,7 +175,7 @@
         ["Direcionar gastos militares para iniciativas sociais", ""],
         ["Lucros das energéticas para o público", ""],
         ["Fim dos paraísos fiscais", ""],
-        ["Empréstimos favorávies para projetos \"verdes\"", ""],
+        ["Empréstimos favoráveis para projetos \"verdes\"", ""],
         ["Rendimento básico", ""],
         ["Fim dos estágios não remunerados", ""],
         ["Tratamento igual para os trabalhadores migrantes", ""],
@@ -194,7 +194,7 @@
       ]},
       {"k": "eu", "v": [
         ["Pró reforma dos tratados", ""],
-        ["Valores anti-fascistas nos tratados", ""],
+        ["Valores antifascistas nos tratados", ""],
         ["Parlamento pode propor leis", ""],
         ["Parlamento seleciona a comissão", ""],
         ["Parlamento controla orçamento", ""],
@@ -224,14 +224,14 @@
       {"k": "migration", "v": [
         ["Contra o foco excessivo na política migratória"],
         ["Missão europeia de busca e salvamento no mediterrâneo"],
-        ["Humanidade e solidarieade no acolhimento de migrantes"]
+        ["Humanidade e solidariedade no acolhimento de migrantes"]
       ]},
       {"k": "climate", "v": [
         ["UE poluição zero", "https://greens-2024.eu/topics/#save_our_planet"],
         ["100% energia renovável 2040"],
-        ["Redirecionar fundos da agrigultura industrial para a sustentável"],
+        ["Redirecionar fundos da agricultura industrial para a sustentável"],
         ["Expansão dos transportes públicos"],
-        ["Fim faseado dos subsídios aos conbustíveis fósseis a partir de 2025"],
+        ["Fim faseado dos subsídios aos combustíveis fósseis a partir de 2025"],
         ["Investir no isolamento das habitações"],
         ["Independência energética"]
       ]},
@@ -251,13 +251,13 @@
         ["Rendimento básico europeu"],
         ["Contra todo o tipo de discriminação"],
         ["Contra a criminalização de ativistas e associações"],
-        ["Promover a auto-determinação e autonomia corporal"],
-        ["Garantir acesso legal a reconhecimento de genero"],
+        ["Promover a autodeterminação e autonomia corporal"],
+        ["Garantir acesso legal a reconhecimento de género"],
         ["Garantir direito e acesso seguro à IVG"],
-        ["Reconhecer direitos sexuais e reprodutores como direitos fundamentais"],
+        ["Reconhecer direitos sexuais e reprodutivos como direitos fundamentais"],
         ["Acabar com a violência contra mulheres e aumentar apoio às vítimas"],
         ["Garantir paridade de remuneração"],
-        ["Total paridade de genero no emprego e na vida"]
+        ["Total paridade de género no emprego e na vida"]
       ]},
       {"k": "eu", "v": [
         ["Contra o veto"],
@@ -309,7 +309,7 @@
         ["Investir na energia nuclear"],
         ["Reduzir a burocracia para agricultores"],
         ["Re-avaliar e reduzir a legislação dos agricultores"],
-        ["Assitência financeira para agricultores"],
+        ["Assistência financeira para agricultores"],
         ["Reduzir emissões dos transportes 60% até 2050"]
       ]},
       {"k": "economy", "v": [
@@ -357,11 +357,11 @@
     "policies": [
       {"k": "defense", "v": [
         ["Pró Ucrânia", ""],
-        ["Politica de defesa Europeia", ""],
+        ["Política de defesa Europeia", ""],
         ["Pró NATO", ""],
         ["Compras conjuntas para defesa", ""],
         ["Aumentar a cibersegurança", ""],
-        ["Proteger infra-estrutura crítica", ""],
+        ["Proteger infraestrutura crítica", ""],
         ["Terminar o conflito do Chipre", ""],
         ["Conferência de paz para Gaza", ""],
         ["Solução de 2 estados", ""]
