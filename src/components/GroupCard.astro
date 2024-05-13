@@ -1,6 +1,7 @@
 ---
 
-import RadioImg from '../components/RadioImg';
+import RadioImg from './RadioImg';
+import IconLink from './IconLink.astro';
 
 const {group} = Astro.props;
 const {slug, name, label, url, manifesto, img, policies} = group;
@@ -51,14 +52,10 @@ const options =  [
 
     <div class="w-52 my-2 flex justify-evenly">
         {url &&
-            <a class="flex items-baseline justify-center" href={url} target="_blank">
-                <i class="bi bi-link-45deg text-base" /><span class="text-base">Web</span>
-            </a>
+            <IconLink iconClass="bg-boxlink" text="Web" href={url} />
         }
         {manifesto &&
-            <a class="flex items-baseline justify-center" href={manifesto} target="_blank">
-                <i class="bi bi-link-45deg text-base" /><span class="text-base">Manifesto 2024</span>
-            </a>
+            <IconLink iconClass="bg-boxlink" text="Manifesto 2024" href={manifesto} />
         }
     </div>
     

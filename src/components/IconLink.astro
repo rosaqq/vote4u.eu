@@ -1,0 +1,6 @@
+---
+const { iconClass, text, href } = Astro.props
+---
+<a class="flex items-center justify-center" href={href} target="_blank">
+    <span class="text-base">{text}</span>&nbsp;<span class={`${iconClass} w-4 h-6 bg-center bg-contain bg-no-repeat`}></span>
+</a>
