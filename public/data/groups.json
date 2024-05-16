@@ -20,22 +20,21 @@
     "name": "European People's Party Group",
     "label": "EPP Group",
     "url": "https://www.eppgroup.eu/",
-    "manifesto": "https://www.epp.eu/papers/epp-manifesto-2024",
+    "manifesto": "https://www.eppgroup.eu/newsroom/modernisation-agenda",
     "img": "epp.svg",
     "policies": [
       {"k": "defense", "v": [
-        ["Fortemente pró Ucrânia", "https://www.eppgroup.eu/newsroom/epp-group-position-paper-on-ukraine"],
         ["0.25% PIB apoio militar à Ucrânia", "https://www.eppgroup.eu/newsroom/give-0-25-of-gdp-for-ukraine-s-victory"],
-        ["Confiscar bens russos", "https://www.eppgroup.eu/newsroom/make-russia-foot-the-entire-bill-for-ukraine-s-devastation"],
-        ["Fortemente pró NATO", "https://www.eppgroup.eu/what-we-stand-for/our-impact/a-stronger-europe-in-the-world"],
-        ["Política de defesa comum", "https://www.eppgroup.eu/what-we-stand-for/our-priorities/security-a-european-security-pact"],
-        ["Investir na defesa", ""],
-        ["Forças armadas da UE"],
-        ["União militar e comissário de defesa", "https://www.eppgroup.eu/newsroom/position-paper-on-a-european-defence-union"],
-        ["Criar uma DARPA europeia"],
-        ["Brigada de cibersegurança"],
-        ["Conselho de segurança europeu"],
-        ["Escudo conjunto de defesa UE-NATO"]
+        ["Pacto de segurança UE, incluindo:", "https://www.eppgroup.eu/what-we-stand-for/our-priorities/security-a-european-security-pact"],
+        ["Escudo de segurança UE-NATO"],
+        ["União de defesa 2030"],
+        ["Comissário da defesa"],
+        ["Objetivo 35% compras conjuntas"],
+        ["Proteger infraestrutura estratégica"],
+        ["Reviver a indústria de defesa da UE"],
+        ["Brigada de ciberdefesa"],
+        ["Centro de Resiliência Democrática", "https://nato-pa.foleon.com/coordination-centre-on-democracy-resilience/the-case-for-a-centre-for-democratic-resilience-in-nato/"],
+        ["Criar uma DARPA europeia"]
       ]},
       {"k": "migration", "v": [
         ["Expansão da FRONTEX", ""],
