@@ -81,14 +81,10 @@ let options = [
 ---
 
 <Layout title="Europeias 2024">
-	<main>
-
-		<h1 class="sm:text-7xl text-4xl font-bold text-center mb-4">Europeias 2024</h1>
 
 		<div class="flex justify-center">
 			<Info>Seleciona uma lista!</Info>
 		</div>
-
 
 		<!-- List radio -->
 		<div class="m-4 flex justify-center flex-wrap sm:flex-nowrap">
@@ -108,16 +104,8 @@ let options = [
 				<ListItem user={user} />
 			))}
 		</List>
-	</main>
-</Layout>
 
-<style>
-	main {
-		margin: auto;
-		padding: 1rem;
-		width: 830px; /* initially 800px, increased to accomodade the largest MEP name withouth getting 3 cols*/
-		max-width: calc(100% - 2rem);
-		font-size: 20px;
-		line-height: 1.6;
-	}
-</style>
+		<footer slot="footer" class="absolute bottom-0 left-0 w-full text-center py-2">
+			<a class="text-slate-600 underline" href="/about">Sobre</a>
+		</footer>
+</Layout>

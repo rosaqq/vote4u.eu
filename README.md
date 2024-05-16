@@ -1,8 +1,11 @@
-# A little pet project
+# EU elections project
 
-Candidate guide for the Portuguese EU elections  
-Also an excuse to get started with astro, react, and tailwind honestly :)  
+Currently listing all portuguese candidate lists & their EU group affiliations  
+(but possibly with greater aims in sight...)  
 
+[Astro](https://astro.build/), [React](https://react.dev/), and [Tailwind](https://tailwindcss.com/)
+
+Contact @ [email](mailto:vote4u.eu@proton.me)
 
 ## Note to self: useful links
 
