@@ -91,12 +91,12 @@ let options = [
 
 
 		<!-- List radio -->
-		<div class="m-4 mb-8 flex justify-center flex-wrap sm:flex-nowrap">
+		<div class="m-4 flex justify-center flex-wrap sm:flex-nowrap">
 			<RadioImg options={options} targetClass="profile" groups="true" client:load />
 		</div>
 
 		<!-- EU groups -->
-		<div class="before:ml-auto after:mr-auto flex flex-nowrap overflow-scroll">
+		<div class="before:ml-auto after:mr-auto my-4 flex flex-nowrap overflow-x-auto">
 			{groups.map((group) => (
 				<GroupCard group={group} />
 			))}
