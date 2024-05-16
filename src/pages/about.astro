@@ -1,0 +1,31 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+// Alphabetically ordered names of contributors
+const names = ['Gonçalo Martins', 'Tiago Rosa']
+---
+
+<Layout title="Europeias 2024">
+
+    <div class="text-sm flex flex-col items-center pt-10">
+        <div class="md:w-4/6 space-y-4">
+            <p class="">Olá!</p>
+            <p>Este projeto nasce de uma iniciativa de cidadãos sem estrutura formal por trás.</p>
+            <p>O nosso objetivo é compilar e apresentar informação útil e relevante sobre as associações europeias das listas nacionais e as suas posições a nível europeu.</p>
+            <p>Discordas de alguma coisa? Tens uma sugestão? Queres-te juntar ao projeto?</p>
+            <p>Estamos abertos a qualquer participação: <a class="underline" href="mailto:vote4u.eu@proton.me">vote4u.eu@proton.me</a></p>
+            <p>Este website é <a class="italic underline" href="https://github.com/rosaqq/vote4u.eu">open source</a> e está a ser desenvolvido com <a class="italic underline" href="https://astro.build/">Astro</a>, <a class="italic underline" href="https://react.dev/">React</a>, e <a class="italic underline" href="https://tailwindcss.com/">Tailwind CSS</a>.</p>
+        </div>
+
+        <div class="pt-10">
+            <p class="text-center">Contribuições:</p>
+            <ul>
+                {names.map(name => <li>{name}</li>)}
+            </ul>
+        </div>
+    </div>
+
+    <footer slot="footer" class="absolute bottom-0 left-0 w-full text-center py-2">
+        <a class="text-slate-600 underline" href="/">Voltar</a>
+    </footer>
+</Layout>
