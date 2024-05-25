@@ -75,7 +75,7 @@ const options =  [
         {policies.map((p: any) => (
             <ul class={`group_policy_${slug} text-sm text-slate-300 list-disc list-inside ${p.k!=='defense' ? 'hidden' : ''}`} data-radio={p.k}>
                 {p.v.map((policyItem: string[]) => (
-                    <li>
+                    <li class={policyItem[0][0]==="\t"?"ml-2 list-circle":""}>
                         {policyItem[0]}{policyItem.slice(1).map((ref, i) => (
                             // Note slice returns empty array if length < slice value, so we don't need to check ref exists
                             // "ref &&" in case pos 1 of the array exists but = an empty str
