@@ -282,18 +282,18 @@
     "img": "renew.svg",
     "policies": [
       {"k": "defense", "v": [
-        ["Pró Ucrânia"],
-        ["Dar prioridade à defesa"],
-        ["Fortalecer a indústria militar da UE", "https://www.reneweuropegroup.eu/policies/2024-03-27/european-defence"],
-        ["Aumentar a contratação conjunta"],
+        ["Pró Ucrânia", "https://www.reneweuropegroup.eu/news/2024-02-27/eu-security-renew-europe-spearheads-call-for-a-leap-forward-in-european-defence"],
+        ["+ investimento em defesa", " \"https://www.reneweuropegroup.eu/policies/2024-03-27/european-defence\""],
+        ["Compra de material feito na UE"],
+        ["Aumentar a contratação conjunta", "https://www.reneweuropegroup.eu/news/2024-02-27/eu-security-renew-europe-spearheads-call-for-a-leap-forward-in-european-defence"],
         ["União de Defesa"],
-        ["Academia Militar Europeia"],
-        ["Reforçar sanções"],
+        ["Academia Militar Europeia", "https://www.reneweuropegroup.eu/news/2024-02-27/eu-security-renew-europe-spearheads-call-for-a-leap-forward-in-european-defence"],
+        ["Reforçar sanções contra a Rússia"],
         ["Fortalecer inovação e soberania tecnológica"],
         ["Forte cooperação UE-NATO"]
       ]},
       {"k": "migration", "v": [
-        ["Política comum de migração e asilo"],
+        ["Política comum de migração, incluindo:", "https://reneweuropegroup.app.box.com/s/02cccbvlh8xsysg6zgs90cz2axwiun9s"],
         ["Processo de asilo em países externos"],
         ["Acordos com países externos"],
         ["Migração com respeito pela dignidade"],
@@ -303,39 +303,51 @@
         ["Reforma da FRONTEX com foco nos direitos humanos"],
         ["Migração económica legal"],
         ["Migrantes para combater a falta de mão de obra"],
-        ["Acesso Schengen Bulgária e Roménia"]
+        ["Acesso Schengen Bulgária e Roménia"],
+        ["+ financiamento às organizações no terreno"],
+        ["Dignificação dos centros de acolhimento"],
+        ["Sistema de retorno ao país origem + eficaz"],
+        ["Desburocratização do processo"],
+        ["Desenvolver políticas de integração"]
       ]},
       {"k": "climate", "v": [
-        ["Redução de 55% nas emissões até 2030"],
-        ["Net-zero até 2050"],
-        ["Implementar o \"pacto verde\""],
+        ["Redução de 55% nas emissões até 2030", "https://www.reneweuropegroup.eu/what-we-stand-for/investing-in-a-sustainable-future"],
+        ["Plano \"net-zero\" 2050, incluindo:", "https://www.reneweuropegroup.eu/campaigns/green-deal", "https://www.reneweuropegroup.eu/news/2023-04-18/renew-europe-sets-final-course-for-carbon-neutrality-by-2050-without-leaving-anyone-behind", "https://www.reneweuropegroup.eu/news/2024-04-25/renew-europe-shapes-groundbreaking-legislation-for-eu-reindustrialisation"],
+        ["Reduzir emissões dos transportes 60% até 2050"],
+        ["Expandir o sistema de trocas de emissões"],
+        ["Fundo Social Climático"],
         ["Autonomia energética estratégica"],
         ["Investir na energia renovável"],
         ["Investir na energia nuclear"],
-        ["Reduzir a burocracia para agricultores"],
-        ["Re-avaliar e reduzir a legislação dos agricultores"],
+        ["Plano de ação para a agricultura, incluindo:", "https://app.box.com/s/cuaz0v8d623aak5k3i58fqqogduuuqcy"],
         ["Assistência financeira para agricultores"],
-        ["Reduzir emissões dos transportes 60% até 2050"]
+        ["Defender a posição dos agricultores na cadeia de valor"],
+        ["Reduzir drasticamente a burocracia"],
+        ["Combater concorrência desleal no mercado global"],
+        ["Incentivar renovação geracional dos agricultores"],
+        ["Análise custo-benefício dos requisitos atuais"]
+
       ]},
       {"k": "economy", "v": [
         ["Comércio multilateral aberto e justo", "https://www.reneweuropegroup.eu/policies/2023-06-29/trade-position-paper"],
         ["Estudar a introdução de um \"euro digital\"", "https://www.reneweuropegroup.eu/policies/2023-06-29/digital-euro-position-paper"],
-        ["Apoiar as PMEs a nível europeu"],
-        ["3% PIB para I&D até 2027"],
-        ["Unificar os mercados de capital", "https://www.reneweuropegroup.eu/policies/2024-03-08/regaining-our-competitive-edge"],
         ["Reforma da política agrícola comum", "https://app.box.com/s/cuaz0v8d623aak5k3i58fqqogduuuqcy"],
-        ["Foco na inovação e desenvolvimento tecnológico"],
         ["Fortalecer e expandir a união monetária"],
+        ["Plano para aumentar a competitividade da UE, incluindo:", "https://app.box.com/s/45tn82mwegobayznzmqy4wh9imr6o6c9"],
+        ["Foco na inovação e desenvolvimento tecnológico"],
+        ["3% PIB para I&D até 2027"],
         ["Mercados abertos e livres"],
-        ["Aumentar a mobilidade no mercado de trabalho"]
+        ["Unificar os mercados de capital", "https://www.reneweuropegroup.eu/policies/2024-03-08/regaining-our-competitive-edge"],
+        ["Aumentar a mobilidade no mercado de trabalho"],
+        ["Plano de apoio às PMEs", "https://app.box.com/s/r4u70pzisomvbp1m2tz8aghyjx81dp0h"]
       ]},
       {"k": "social", "v": [
         ["Direito à educação acessível e de qualidade"],
         ["Triplicar o orçamento do Erasmus"],
-        ["Direitos das mulheres"],
-        ["Direitos LGBTI+"],
+        ["Luta pelos direitos das mulheres"],
+        ["Luta pelos direitos LGBTI+", "https://www.reneweuropegroup.eu/policies/2020-03-13/10-commitments-for-lgbti-rights"],
         ["Pró liberdade de casamento"],
-        ["Pró IVG"]
+        ["Pró IVG", "https://www.reneweuropegroup.eu/news/2024-04-11/european-parliament-demands-abortion-rights-to-be-enshrined-for-all-europeans-following-renew-europe-initiative"]
       ]},
       {"k": "eu", "v": [
         ["Maior integração UE"],
