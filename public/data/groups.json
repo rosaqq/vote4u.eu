@@ -75,23 +75,21 @@
           ["\tContra os encargos adicionais das propostas pela conservação da natureza, controlo de pesticidas e emissões industriais"]
       ]},
       {"k": "economy", "v":  [
-        ["\"Social market economy\""],
-        ["Disciplina fiscal", ""],
-        ["Foco na estabilidade de preços"],
-        ["Política agrícola forte"],
-        ["Maior flexibilidade orçamental para a UE"],
-        ["Reduzir a carga burocrática 33% em todos os setores"],
-        ["Ambiente facilitador do empreendedorismo"],
-        ["Proteger infraestrutura crítica", ""],
+        ["Reduzir a regulação para 1/3"],
+        ["Processos mais simples e fáceis para as empresas"],
+        ["Estratégia \"Made in EU\""],
+        ["Unificação dos mercados de capital"],
+        ["União bancária"],
+        ["Proteger infraestrutura crítica"],
         ["Proteger indústrias estratégicas"],
         ["4% PIB para I&D"],
-        ["Independência em matérias primas", ""],
-        ["Instituto europeu para investigação IA"],
-        ["Mercado único digital justo"]
+        ["Instituto europeu para investigação IA"]
       ]},
       {"k": "social", "v":  [
+        ["Manter o estado geral da democracia social"],
         ["Empregos de qualidade"],
-        ["Uniformizar a criminalização de violência contra mulheres", ""],
+        ["Contratação coletiva + forte"],
+        ["Uniformizar a criminalização de violência contra mulheres"],
         ["Oportunidades para mulheres empreendedoras"],
         ["União de saúde", "https://www.eppgroup.eu/newsroom/epp-group-position-paper-on-a-european-union-for-health"],
         ["Erradicar pobreza extrema no mundo até 2030"],
@@ -101,6 +99,8 @@
       {"k": "eu", "v":  [
         ["Pró UE"],
         ["Alargamento da UE",""],
+        ["Contra a unanimidade para aplicar sanções"],
+        ["Contra a unanimidade para a defesa"],
         ["Ministro europeu dos negócios estrangeiros"],
         ["Fortalecer a segurança interna", "https://www.eppgroup.eu/newsroom/epp-group-position-paper-on-how-to-combat-organised-crime-in-the-european-union"],
         ["Fortalecer a Europol","https://www.eppgroup.eu/newsroom/europe-s-future-unified-front-against-terrorism-crime"]
