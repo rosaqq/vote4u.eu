@@ -8,7 +8,9 @@ export default defineConfig({
   integrations: [react(), tailwind()],
   devToolbar: {
     enabled: false
-  }
+  },
+  output: "static",
+  site: "https://vote4u.eu"
 });
 
 /**
