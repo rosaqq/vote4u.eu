@@ -76,10 +76,13 @@ const options =  [
             <ul class={`group_policy_${slug} text-sm text-slate-300 list-disc list-inside ${p.k!=='defense' ? 'hidden' : ''}`} data-radio={p.k}>
                 {p.v.map((policyItem: string[]) => (
                     <li class={policyItem[0][0]==="\t"?"ml-2 list-circle":""}>
-                        {policyItem[0]}{policyItem.slice(1).map((ref, i) => (
+                        {policyItem[0]}{policyItem.slice(1).map((ref, i, arr) => (
                             // Note slice returns empty array if length < slice value, so we don't need to check ref exists
                             // "ref &&" in case pos 1 of the array exists but = an empty str
-                            (ref && <a class="text-sky-300" href={ref} target="_blank">&nbsp;<sup>{i+1}</sup></a>)
+                            // Note 2: wikipedia is not a ref - it's being used to explain the meaning of something
+                            // Thus we use the symbol ? instead of a footnote number
+                            // Minor fuckery going on where we check arr[0] to see if there was a wiki entry & adjust ref number sequence so refs always start with 1
+                            (ref && <a class="text-sky-300" href={ref} target="_blank">&nbsp;<sup>{ref.includes("wikipedia") ? "?" : (arr[0].includes("wikipedia") ? i : i+1)}</sup></a>)
                         ))}
                     </li>
                 ))}
